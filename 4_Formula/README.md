@@ -43,3 +43,17 @@ The Lua equivalent of the above script. Useful for running directly inside the D
 1. Open DaVinci Resolve.
 2. Go to `Workspace` > `Console` > `Lua`.
 3. Paste the contents of `add_markers.lua` or run it using `dofile()`.
+
+## External Scripting (2026-09-25)
+
+### resolve_env.md
+Specification for the shared connection and timecode conversion helper module (`5_Symbols/resolve/resolve_env.py`).
+
+### mark_segments.md
+Specification for adding duration markers from SRT-style timecodes with auto-detection of absolute vs offset interpretation (`5_Symbols/resolve/mark_segments.py`).
+
+### build_section_timeline.md
+Specification for building new timelines from ranges of a source timeline, reproducing all tracks and properties (`5_Symbols/resolve/build_section_timeline.py`).
+
+### resolve_session_2026-09-25.md
+Detailed run log for the 2026-09-25 session: environment, commands executed, exact values, results, and verification.
