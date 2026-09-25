@@ -13,6 +13,11 @@ Code should be organized by module/functionality:
   * `chapters.py` - Chapter export/import.
 * `./audio/`
   * `normalization.py` - Audio leveling logic.
+* `./resolve/` - **DaVinci Resolve external scripting** (Python 3)
+  * `resolve_env.py` - Connection helper and timecode conversion
+  * `mark_segments.py` - Add duration markers from timecodes
+  * `build_section_timeline.py` - Build timelines from ranges
+  * See `./resolve/README.md` for usage and `4_Formula/resolve_*.md` for specs
 
 ## Setup
 
