@@ -1,0 +1,3240 @@
+1
+01:00:00,320 --> 01:00:01,480
+<b>More, more.</b>
+
+2
+01:00:01,719 --> 01:00:03,760
+<b>No, when I sit my head will be up.</b>
+
+3
+01:00:04,000 --> 01:00:05,880
+<b>Okay, good. Recording?</b>
+
+4
+01:00:06,159 --> 01:00:07,000
+<b>Yes, it's recording.</b>
+
+5
+01:00:07,519 --> 01:00:08,679
+<b>Okay, hello, NEM.</b>
+
+6
+01:00:08,920 --> 01:00:12,559
+<b>Let's talk about technologies, AI,</b>
+
+7
+01:00:12,599 --> 01:00:14,719
+<b>progress, evolution and human,</b>
+
+8
+01:00:14,719 --> 01:00:16,519
+<b>because it's a very important subject</b>
+
+9
+01:00:16,840 --> 01:00:19,760
+<b>and it becomes more and more complicated</b>
+
+10
+01:00:19,760 --> 01:00:21,199
+<b>for us to deal with it.</b>
+
+11
+01:00:21,960 --> 01:00:24,079
+<b>And let's start from</b>
+
+12
+01:00:24,159 --> 01:00:26,119
+<b>technologies and your experience,</b>
+
+13
+01:00:26,119 --> 01:00:27,639
+<b>because all your life you</b>
+
+14
+01:00:27,639 --> 01:00:29,239
+<b>are focusing on technologies,</b>
+
+15
+01:00:29,360 --> 01:00:31,320
+<b>something that you are in love with.</b>
+
+16
+01:00:31,800 --> 01:00:32,599
+<b>Tell me why.</b>
+
+17
+01:00:32,639 --> 01:00:34,280
+<b>What made you so</b>
+
+18
+01:00:34,360 --> 01:00:36,199
+<b>interested in technologies?</b>
+
+19
+01:00:36,599 --> 01:00:38,079
+<b>So the reality is I'm</b>
+
+20
+01:00:38,079 --> 01:00:39,440
+<b>passionate about technology,</b>
+
+21
+01:00:39,440 --> 01:00:41,119
+<b>because from a kid I always</b>
+
+22
+01:00:41,119 --> 01:00:43,400
+<b>fantasized to become a pilot.</b>
+
+23
+01:00:43,440 --> 01:00:45,760
+<b>Once you said, let's do a delivery pilot,</b>
+
+24
+01:00:46,159 --> 01:00:47,960
+<b>it made two of my</b>
+
+25
+01:00:47,960 --> 01:00:50,199
+<b>childhood things come true,</b>
+
+26
+01:00:50,440 --> 01:00:51,679
+<b>one from my adulthood,</b>
+
+27
+01:00:52,119 --> 01:00:54,199
+<b>which is called continuous integration</b>
+
+28
+01:00:54,280 --> 01:00:55,519
+<b>and continuous delivery.</b>
+
+29
+01:00:56,039 --> 01:00:58,360
+<b>10, 20 years ago doing continuous</b>
+
+30
+01:00:58,360 --> 01:00:59,559
+<b>integration was</b>
+
+31
+01:00:59,639 --> 01:01:02,000
+<b>impossible for most of the teams.</b>
+
+32
+01:01:02,039 --> 01:01:03,119
+<b>Most of the teams were</b>
+
+33
+01:01:03,199 --> 01:01:04,760
+<b>unable to integrate the code.</b>
+
+34
+01:01:05,239 --> 01:01:07,400
+<b>And now we came to an age</b>
+
+35
+01:01:07,440 --> 01:01:08,599
+<b>with the rise of the AI,</b>
+
+36
+01:01:08,599 --> 01:01:10,519
+<b>we can do the continuous integration.</b>
+
+37
+01:01:10,920 --> 01:01:12,280
+<b>Now it is time to do</b>
+
+38
+01:01:12,280 --> 01:01:13,480
+<b>the continuous delivery,</b>
+
+39
+01:01:13,480 --> 01:01:15,159
+<b>which brings me to my childhood.</b>
+
+40
+01:01:15,599 --> 01:01:17,960
+<b>In my childhood I was watching the movies</b>
+
+41
+01:01:17,960 --> 01:01:19,480
+<b>where these mech robots,</b>
+
+42
+01:01:19,840 --> 01:01:22,360
+<b>the suits, the arc suits were able to go</b>
+
+43
+01:01:22,360 --> 01:01:23,519
+<b>to the other planets,</b>
+
+44
+01:01:23,519 --> 01:01:24,880
+<b>be able to terraform them</b>
+
+45
+01:01:24,880 --> 01:01:27,039
+<b>and do all these magic stuff.</b>
+
+46
+01:01:27,039 --> 01:01:30,199
+<b>But the reality is being a pilot is very,</b>
+
+47
+01:01:30,239 --> 01:01:31,639
+<b>very expensive right now.</b>
+
+48
+01:01:31,719 --> 01:01:34,360
+<b>To hold a plane in the air is very hard.</b>
+
+49
+01:01:34,440 --> 01:01:35,480
+<b>But with the rise of</b>
+
+50
+01:01:35,480 --> 01:01:37,360
+<b>the AI, it all changed.</b>
+
+51
+01:01:37,800 --> 01:01:39,119
+<b>What happened is we are</b>
+
+52
+01:01:39,159 --> 01:01:41,800
+<b>becoming from a driver to a pilot.</b>
+
+53
+01:01:42,119 --> 01:01:44,039
+<b>So I called it delivery pilot.</b>
+
+54
+01:01:44,079 --> 01:01:45,119
+<b>And that's the reason I'm</b>
+
+55
+01:01:45,119 --> 01:01:46,360
+<b>very passionate about it.</b>
+
+56
+01:01:46,840 --> 01:01:49,000
+<b>Not just to make money, but make sure</b>
+
+57
+01:01:49,000 --> 01:01:51,360
+<b>that this new profession comes to life.</b>
+
+58
+01:01:51,960 --> 01:01:56,639
+<b>Can you help us to understand the history</b>
+
+59
+01:01:56,639 --> 01:01:58,199
+<b>of technology a little bit?</b>
+
+60
+01:01:58,519 --> 01:02:00,079
+<b>Because you've started</b>
+
+61
+01:02:00,280 --> 01:02:02,079
+<b>over 20 years before.</b>
+
+62
+01:02:02,360 --> 01:02:05,440
+<b>And do you remember how it looked like at</b>
+
+63
+01:02:05,480 --> 01:02:07,119
+<b>that time and how</b>
+
+64
+01:02:07,119 --> 01:02:08,960
+<b>much changed till today?</b>
+
+65
+01:02:09,599 --> 01:02:11,760
+<b>First of all, I started 40 years ago.</b>
+
+66
+01:02:12,119 --> 01:02:15,000
+<b>I had a computer at the age of five and</b>
+
+67
+01:02:15,000 --> 01:02:16,880
+<b>my mother was a nuclear scientist.</b>
+
+68
+01:02:16,880 --> 01:02:18,559
+<b>And once she was doing</b>
+
+69
+01:02:18,559 --> 01:02:20,400
+<b>the things with the Atari,</b>
+
+70
+01:02:20,519 --> 01:02:23,440
+<b>I got a basic book, tried to replicate</b>
+
+71
+01:02:23,480 --> 01:02:25,239
+<b>what was on the book and some stuff</b>
+
+72
+01:02:25,639 --> 01:02:26,800
+<b>working on the screen,</b>
+
+73
+01:02:26,840 --> 01:02:28,280
+<b>especially the colorful, the</b>
+
+74
+01:02:28,280 --> 01:02:30,360
+<b>GPU stuff at that time in 1980.</b>
+
+75
+01:02:31,000 --> 01:02:34,119
+<b>In Ankara on the research institute.</b>
+
+76
+01:02:34,519 --> 01:02:37,679
+<b>So what is happening right now is most of</b>
+
+77
+01:02:37,679 --> 01:02:40,320
+<b>these link languages was declarative.</b>
+
+78
+01:02:40,360 --> 01:02:41,280
+<b>We had to learn a</b>
+
+79
+01:02:41,280 --> 01:02:43,079
+<b>language to be able to talk.</b>
+
+80
+01:02:43,079 --> 01:02:44,079
+<b>I moved to the UK.</b>
+
+81
+01:02:44,079 --> 01:02:45,159
+<b>I had to learn English.</b>
+
+82
+01:02:45,440 --> 01:02:47,880
+<b>People need to learn an intermediary</b>
+
+83
+01:02:47,920 --> 01:02:49,639
+<b>language to talk to each</b>
+
+84
+01:02:49,639 --> 01:02:51,159
+<b>other as well as to talk to the</b>
+
+85
+01:02:51,159 --> 01:02:51,840
+<b>computers.</b>
+
+86
+01:02:51,880 --> 01:02:54,039
+<b>Right now, what's happening is with the</b>
+
+87
+01:02:54,039 --> 01:02:55,679
+<b>rise of the AI, we can only</b>
+
+88
+01:02:55,679 --> 01:02:57,320
+<b>speak in our own language,</b>
+
+89
+01:02:57,320 --> 01:03:00,239
+<b>not even English to be able to make the</b>
+
+90
+01:03:00,280 --> 01:03:02,199
+<b>AI work because the AI's,</b>
+
+91
+01:03:02,440 --> 01:03:04,199
+<b>the computer languages got</b>
+
+92
+01:03:04,280 --> 01:03:07,679
+<b>absurd so much that a computer geek is</b>
+
+93
+01:03:07,679 --> 01:03:08,960
+<b>not needed to be able to</b>
+
+94
+01:03:08,960 --> 01:03:10,920
+<b>program these computers anymore.</b>
+
+95
+01:03:11,400 --> 01:03:12,079
+<b>Right.</b>
+
+96
+01:03:12,119 --> 01:03:14,440
+<b>It seems that today we don't need</b>
+
+97
+01:03:14,519 --> 01:03:17,960
+<b>programmers as smart as we needed them</b>
+
+98
+01:03:17,960 --> 01:03:19,719
+<b>before because today</b>
+
+99
+01:03:19,719 --> 01:03:23,519
+<b>we can build a lot without even being in</b>
+
+100
+01:03:23,519 --> 01:03:25,440
+<b>front with software engineer.</b>
+
+101
+01:03:26,199 --> 01:03:29,440
+<b>And I mean that without knowing about</b>
+
+102
+01:03:29,440 --> 01:03:33,039
+<b>coding, we can create an application.</b>
+
+103
+01:03:33,400 --> 01:03:34,599
+<b>Isn't it amazing?</b>
+
+104
+01:03:34,880 --> 01:03:36,960
+<b>Isn't it that crazy</b>
+
+105
+01:03:36,960 --> 01:03:38,320
+<b>programs that happened?</b>
+
+106
+01:03:38,840 --> 01:03:40,760
+<b>What is happening right now is we are</b>
+
+107
+01:03:40,800 --> 01:03:43,599
+<b>moving from a rider to a driver, driver</b>
+
+108
+01:03:43,599 --> 01:03:44,800
+<b>to a pilot, but this</b>
+
+109
+01:03:44,800 --> 01:03:45,880
+<b>is a different change.</b>
+
+110
+01:03:46,280 --> 01:03:49,239
+<b>Meaning in the past, the programmer was</b>
+
+111
+01:03:49,239 --> 01:03:50,280
+<b>building the program.</b>
+
+112
+01:03:50,679 --> 01:03:51,960
+<b>Right now, the program</b>
+
+113
+01:03:51,960 --> 01:03:53,599
+<b>is getting built by AI.</b>
+
+114
+01:03:53,719 --> 01:03:56,480
+<b>What it means is we are right now entered</b>
+
+115
+01:03:56,480 --> 01:03:59,239
+<b>into an era at 2026 AI</b>
+
+116
+01:03:59,280 --> 01:04:00,880
+<b>is building another AI.</b>
+
+117
+01:04:01,320 --> 01:04:03,480
+<b>So we need to come to ourselves.</b>
+
+118
+01:04:03,760 --> 01:04:04,519
+<b>Why do we need a</b>
+
+119
+01:04:04,559 --> 01:04:06,039
+<b>pilot in the first place?</b>
+
+120
+01:04:06,280 --> 01:04:07,599
+<b>Once you want to fly to</b>
+
+121
+01:04:07,599 --> 01:04:09,920
+<b>America's, you always want a pilot</b>
+
+122
+01:04:10,360 --> 01:04:12,079
+<b>in the help because they</b>
+
+123
+01:04:12,079 --> 01:04:14,119
+<b>are going to carry 300 people.</b>
+
+124
+01:04:14,440 --> 01:04:16,000
+<b>Even though everything is done</b>
+
+125
+01:04:16,039 --> 01:04:18,400
+<b>automatically 30 years ago</b>
+
+126
+01:04:18,440 --> 01:04:20,039
+<b>without the generative AI,</b>
+
+127
+01:04:20,320 --> 01:04:23,239
+<b>we still wanted a pilot, somebody who is</b>
+
+128
+01:04:23,239 --> 01:04:24,599
+<b>responsible, who</b>
+
+129
+01:04:24,639 --> 01:04:26,400
+<b>understands the plane and</b>
+
+130
+01:04:26,440 --> 01:04:29,679
+<b>who understands the passengers and the</b>
+
+131
+01:04:29,719 --> 01:04:31,119
+<b>engineers at the same</b>
+
+132
+01:04:31,119 --> 01:04:33,400
+<b>time to fly these planes.</b>
+
+133
+01:04:33,400 --> 01:04:35,519
+<b>Right now with the software revolution</b>
+
+134
+01:04:35,800 --> 01:04:36,719
+<b>with the AI, what's</b>
+
+135
+01:04:36,719 --> 01:04:38,559
+<b>happening is we are responsible</b>
+
+136
+01:04:39,000 --> 01:04:41,760
+<b>to fly over all of our bots.</b>
+
+137
+01:04:42,119 --> 01:04:43,960
+<b>I have 300 bots running</b>
+
+138
+01:04:43,960 --> 01:04:45,239
+<b>at the same time right now.</b>
+
+139
+01:04:45,559 --> 01:04:46,800
+<b>What's happening is I</b>
+
+140
+01:04:46,800 --> 01:04:48,639
+<b>cannot go and write the bot.</b>
+
+141
+01:04:48,719 --> 01:04:51,159
+<b>I write one bot to write other bots.</b>
+
+142
+01:04:51,159 --> 01:04:54,559
+<b>So the AI is creating the other AI.</b>
+
+143
+01:04:54,639 --> 01:04:57,159
+<b>What we need to become is become pilots</b>
+
+144
+01:04:57,159 --> 01:04:59,079
+<b>rather than drivers and make sure that</b>
+
+145
+01:04:59,440 --> 01:05:00,800
+<b>this is working altogether.</b>
+
+146
+01:05:00,800 --> 01:05:02,880
+<b>I created the bots to invite people to</b>
+
+147
+01:05:02,880 --> 01:05:04,320
+<b>the Cambridge events.</b>
+
+148
+01:05:04,360 --> 01:05:05,360
+<b>It sometimes works.</b>
+
+149
+01:05:05,440 --> 01:05:06,599
+<b>Sometimes doesn't work.</b>
+
+150
+01:05:06,960 --> 01:05:08,920
+<b>I need to make sure I fly over it.</b>
+
+151
+01:05:08,960 --> 01:05:11,119
+<b>I understand the direction is correct.</b>
+
+152
+01:05:11,320 --> 01:05:12,639
+<b>So the bots are doing</b>
+
+153
+01:05:12,639 --> 01:05:13,599
+<b>their jobs properly.</b>
+
+154
+01:05:14,000 --> 01:05:16,039
+<b>Okay, you jumped already to bots.</b>
+
+155
+01:05:16,039 --> 01:05:17,360
+<b>I think it's too fast.</b>
+
+156
+01:05:17,719 --> 01:05:19,880
+<b>Let's talk about AI skills.</b>
+
+157
+01:05:19,880 --> 01:05:20,880
+<b>What does it mean?</b>
+
+158
+01:05:21,199 --> 01:05:22,400
+<b>Why we need it?</b>
+
+159
+01:05:22,400 --> 01:05:25,559
+<b>Because I think that it's more popular to</b>
+
+160
+01:05:25,559 --> 01:05:30,679
+<b>use chat with AI, to use AI just chatting</b>
+
+161
+01:05:30,840 --> 01:05:32,840
+<b>about the problems, making some</b>
+
+162
+01:05:32,840 --> 01:05:34,880
+<b>solutions, brainstorming, etc.</b>
+
+163
+01:05:35,400 --> 01:05:37,440
+<b>But it's much more.</b>
+
+164
+01:05:37,840 --> 01:05:40,840
+<b>AI can do much more than that.</b>
+
+165
+01:05:41,320 --> 01:05:43,440
+<b>Let's talk about AI skills first.</b>
+
+166
+01:05:43,599 --> 01:05:45,400
+<b>Like how do you understand AI</b>
+
+167
+01:05:45,400 --> 01:05:47,679
+<b>skills and why it's important?</b>
+
+168
+01:05:47,679 --> 01:05:49,719
+<b>So I separated the AI skills</b>
+
+169
+01:05:49,760 --> 01:05:51,440
+<b>into three basic categories.</b>
+
+170
+01:05:51,480 --> 01:05:53,119
+<b>The first one is being a rider.</b>
+
+171
+01:05:53,639 --> 01:05:55,079
+<b>You use the web chat to</b>
+
+172
+01:05:55,079 --> 01:05:56,360
+<b>be able to do your things.</b>
+
+173
+01:05:56,360 --> 01:05:59,119
+<b>You manually instruct them like riding a</b>
+
+174
+01:05:59,119 --> 01:06:00,880
+<b>horse or riding a motorcycle.</b>
+
+175
+01:06:00,880 --> 01:06:02,079
+<b>You are very very handsome.</b>
+
+176
+01:06:02,599 --> 01:06:04,920
+<b>Once you become a driver, you start using</b>
+
+177
+01:06:04,960 --> 01:06:07,159
+<b>cloud code to build a website,</b>
+
+178
+01:06:07,159 --> 01:06:08,320
+<b>to do the things that you</b>
+
+179
+01:06:08,320 --> 01:06:09,880
+<b>want to build with automation.</b>
+
+180
+01:06:10,400 --> 01:06:11,880
+<b>Once you become a pilot,</b>
+
+181
+01:06:12,039 --> 01:06:13,480
+<b>you are not driving anymore.</b>
+
+182
+01:06:13,519 --> 01:06:16,239
+<b>The pilot does not drive, does not go in</b>
+
+183
+01:06:16,239 --> 01:06:17,960
+<b>today in and day out like</b>
+
+184
+01:06:17,960 --> 01:06:19,320
+<b>loss of micro management.</b>
+
+185
+01:06:19,599 --> 01:06:21,039
+<b>He cannot do that because he</b>
+
+186
+01:06:21,039 --> 01:06:22,559
+<b>has loss of responsibility,</b>
+
+187
+01:06:22,880 --> 01:06:24,079
+<b>much more number of</b>
+
+188
+01:06:24,079 --> 01:06:25,880
+<b>customers that they need to carry,</b>
+
+189
+01:06:26,239 --> 01:06:28,559
+<b>and make sure everything works and the</b>
+
+190
+01:06:28,559 --> 01:06:29,840
+<b>direction is correct.</b>
+
+191
+01:06:30,039 --> 01:06:32,639
+<b>So we are right now moving into an era</b>
+
+192
+01:06:32,679 --> 01:06:35,239
+<b>where people are going to become pilots.</b>
+
+193
+01:06:35,280 --> 01:06:37,079
+<b>Instead of going to their keyboards and</b>
+
+194
+01:06:37,119 --> 01:06:39,400
+<b>typing, they will stop typing.</b>
+
+195
+01:06:39,400 --> 01:06:41,920
+<b>They will start observing and directing.</b>
+
+196
+01:06:42,280 --> 01:06:45,079
+<b>That's a completely different job than</b>
+
+197
+01:06:45,119 --> 01:06:46,000
+<b>driving these</b>
+
+198
+01:06:46,320 --> 01:06:47,760
+<b>computers with the keyboards.</b>
+
+199
+01:06:47,760 --> 01:06:50,400
+<b>We got used to using the keyboards and</b>
+
+200
+01:06:50,400 --> 01:06:52,280
+<b>people like myself to dinosaurs,</b>
+
+201
+01:06:52,320 --> 01:06:53,320
+<b>look at the screens.</b>
+
+202
+01:06:53,360 --> 01:06:55,119
+<b>I have lots of screens, lots</b>
+
+203
+01:06:55,119 --> 01:06:56,400
+<b>of keyboards to do the job.</b>
+
+204
+01:06:56,480 --> 01:06:57,880
+<b>That era is changing.</b>
+
+205
+01:06:58,239 --> 01:07:00,480
+<b>Right now we will look into the computers</b>
+
+206
+01:07:00,480 --> 01:07:03,239
+<b>much less and the robots,</b>
+
+207
+01:07:03,280 --> 01:07:05,039
+<b>the bots are going to do most.</b>
+
+208
+01:07:05,079 --> 01:07:07,320
+<b>But what we need to make sure is the</b>
+
+209
+01:07:07,360 --> 01:07:08,480
+<b>direction is correct.</b>
+
+210
+01:07:08,480 --> 01:07:09,760
+<b>So this is the major</b>
+
+211
+01:07:09,760 --> 01:07:11,639
+<b>thing that changes for us.</b>
+
+212
+01:07:12,039 --> 01:07:13,880
+<b>If we never use AI, we</b>
+
+213
+01:07:13,880 --> 01:07:15,280
+<b>need to first become a rider.</b>
+
+214
+01:07:15,800 --> 01:07:17,760
+<b>Then we need to understand, oh there's</b>
+
+215
+01:07:17,760 --> 01:07:19,519
+<b>cloud code, we can create programs.</b>
+
+216
+01:07:19,519 --> 01:07:20,320
+<b>We don't need to buy</b>
+
+217
+01:07:20,320 --> 01:07:21,960
+<b>the programs anymore.</b>
+
+218
+01:07:22,360 --> 01:07:23,400
+<b>Then we are going to</b>
+
+219
+01:07:23,400 --> 01:07:24,960
+<b>go into a world of bots.</b>
+
+220
+01:07:25,039 --> 01:07:26,199
+<b>We are going to understand</b>
+
+221
+01:07:26,599 --> 01:07:28,239
+<b>AI is going to build the AI,</b>
+
+222
+01:07:28,519 --> 01:07:30,119
+<b>not us building the AI,</b>
+
+223
+01:07:30,159 --> 01:07:31,599
+<b>not me building the bots.</b>
+
+224
+01:07:31,960 --> 01:07:33,719
+<b>That's a completely different world.</b>
+
+225
+01:07:33,760 --> 01:07:35,960
+<b>Once we come there, then we have the</b>
+
+226
+01:07:35,960 --> 01:07:37,760
+<b>necessary skills of the future.</b>
+
+227
+01:07:38,280 --> 01:07:40,719
+<b>Driving and riding is still the old</b>
+
+228
+01:07:40,719 --> 01:07:42,679
+<b>dinosaur world that I'm coming from.</b>
+
+229
+01:07:43,079 --> 01:07:46,119
+<b>Once people see the cloud code, they are</b>
+
+230
+01:07:46,119 --> 01:07:47,920
+<b>like, okay, I can create my website.</b>
+
+231
+01:07:48,280 --> 01:07:49,880
+<b>Yes, you can create your website.</b>
+
+232
+01:07:49,920 --> 01:07:50,480
+<b>That's good.</b>
+
+233
+01:07:50,559 --> 01:07:51,599
+<b>That's not a bad skill.</b>
+
+234
+01:07:51,840 --> 01:07:53,960
+<b>From a rider to driver, definitely.</b>
+
+235
+01:07:54,280 --> 01:07:56,960
+<b>But focus on the new world, whether the</b>
+
+236
+01:07:56,960 --> 01:07:58,159
+<b>bots are building the bots,</b>
+
+237
+01:07:58,159 --> 01:07:59,119
+<b>where the economic</b>
+
+238
+01:07:59,480 --> 01:08:01,199
+<b>pressures are getting removed.</b>
+
+239
+01:08:01,440 --> 01:08:03,000
+<b>So this is a critical world</b>
+
+240
+01:08:03,039 --> 01:08:05,000
+<b>that we are going to go riding.</b>
+
+241
+01:08:05,320 --> 01:08:07,840
+<b>Driving technology is the</b>
+
+242
+01:08:07,880 --> 01:08:09,320
+<b>old way of doing things.</b>
+
+243
+01:08:09,719 --> 01:08:10,280
+<b>Okay.</b>
+
+244
+01:08:10,320 --> 01:08:13,000
+<b>Can you help us to understand the</b>
+
+245
+01:08:13,000 --> 01:08:16,960
+<b>journey, this technology journey?</b>
+
+246
+01:08:17,079 --> 01:08:19,840
+<b>We have to go through to</b>
+
+247
+01:08:19,840 --> 01:08:21,720
+<b>get to the pilot level.</b>
+
+248
+01:08:22,159 --> 01:08:25,359
+<b>For us, starting from your personal life</b>
+
+249
+01:08:25,359 --> 01:08:26,560
+<b>is very, very important.</b>
+
+250
+01:08:27,039 --> 01:08:29,439
+<b>I start doing the typing and</b>
+
+251
+01:08:29,439 --> 01:08:31,520
+<b>the riding, go on the chat,</b>
+
+252
+01:08:31,560 --> 01:08:33,520
+<b>GPT, prompting, that is the stage one</b>
+
+253
+01:08:33,520 --> 01:08:36,159
+<b>that we all need to learn how to do that.</b>
+
+254
+01:08:36,159 --> 01:08:37,600
+<b>Most of us don't have the</b>
+
+255
+01:08:37,720 --> 01:08:40,279
+<b>Alexas or the news at home,</b>
+
+256
+01:08:40,279 --> 01:08:41,359
+<b>so they are unable to</b>
+
+257
+01:08:41,359 --> 01:08:42,439
+<b>go to that ecosystem.</b>
+
+258
+01:08:42,800 --> 01:08:43,720
+<b>But if you have the</b>
+
+259
+01:08:43,720 --> 01:08:45,680
+<b>money, spend the tokens,</b>
+
+260
+01:08:46,079 --> 01:08:48,840
+<b>get these latest frontier models to be</b>
+
+261
+01:08:48,840 --> 01:08:50,680
+<b>able to do your work</b>
+
+262
+01:08:50,840 --> 01:08:52,399
+<b>in a more autonomous manner.</b>
+
+263
+01:08:52,479 --> 01:08:54,039
+<b>It could be a cloud code, it could be</b>
+
+264
+01:08:54,039 --> 01:08:56,119
+<b>Gemini, it could be Codex.</b>
+
+265
+01:08:56,399 --> 01:08:58,560
+<b>Once you start doing that, right now the</b>
+
+266
+01:08:58,600 --> 01:09:00,000
+<b>major hype, the trend</b>
+
+267
+01:09:00,000 --> 01:09:01,640
+<b>is going to the bots.</b>
+
+268
+01:09:01,840 --> 01:09:03,199
+<b>That is the third stage.</b>
+
+269
+01:09:03,439 --> 01:09:04,279
+<b>Make sure that you</b>
+
+270
+01:09:04,279 --> 01:09:05,680
+<b>have a bot with yourself.</b>
+
+271
+01:09:05,720 --> 01:09:07,359
+<b>It could be a broad bot, it could be</b>
+
+272
+01:09:07,359 --> 01:09:09,279
+<b>Muse, it could be DUTs.</b>
+
+273
+01:09:09,279 --> 01:09:10,720
+<b>Every major technology</b>
+
+274
+01:09:10,720 --> 01:09:11,960
+<b>company is creating them.</b>
+
+275
+01:09:12,319 --> 01:09:14,439
+<b>They are more probabilistic than</b>
+
+276
+01:09:14,479 --> 01:09:17,159
+<b>deterministic, meaning most of the time,</b>
+
+277
+01:09:17,239 --> 01:09:19,159
+<b>once we create computer</b>
+
+278
+01:09:19,159 --> 01:09:20,680
+<b>programs, they are deterministic.</b>
+
+279
+01:09:21,039 --> 01:09:23,319
+<b>We have one input and one output and they</b>
+
+280
+01:09:23,359 --> 01:09:25,000
+<b>don't go out of their box.</b>
+
+281
+01:09:25,279 --> 01:09:28,159
+<b>But these bots think out of the box and</b>
+
+282
+01:09:28,159 --> 01:09:30,239
+<b>they have something called the AI harness</b>
+
+283
+01:09:30,560 --> 01:09:32,880
+<b>that they go and complete the tasks.</b>
+
+284
+01:09:33,039 --> 01:09:34,680
+<b>Such as once I created the</b>
+
+285
+01:09:34,680 --> 01:09:36,520
+<b>Eventbrite event in Cambridge,</b>
+
+286
+01:09:36,880 --> 01:09:38,840
+<b>I need to make sure I advertise, I need</b>
+
+287
+01:09:38,880 --> 01:09:39,920
+<b>to make sure I go</b>
+
+288
+01:09:39,920 --> 01:09:41,359
+<b>ahead and get an insurance,</b>
+
+289
+01:09:41,359 --> 01:09:42,680
+<b>I need to make sure I</b>
+
+290
+01:09:42,680 --> 01:09:43,800
+<b>communicate to people.</b>
+
+291
+01:09:44,000 --> 01:09:45,079
+<b>So where we are going</b>
+
+292
+01:09:45,159 --> 01:09:46,319
+<b>through in the world is,</b>
+
+293
+01:09:46,600 --> 01:09:47,640
+<b>we are going to create</b>
+
+294
+01:09:47,720 --> 01:09:49,520
+<b>all these little means.</b>
+
+295
+01:09:49,600 --> 01:09:50,760
+<b>You can call digital</b>
+
+296
+01:09:50,760 --> 01:09:52,720
+<b>twins, people call them bots.</b>
+
+297
+01:09:52,760 --> 01:09:54,800
+<b>We are going to create them and we are</b>
+
+298
+01:09:54,800 --> 01:09:55,960
+<b>going to make sure that</b>
+
+299
+01:09:55,960 --> 01:09:57,319
+<b>they can do something called</b>
+
+300
+01:09:57,399 --> 01:09:58,880
+<b>agent-to-agent communication.</b>
+
+301
+01:09:59,279 --> 01:10:00,920
+<b>My campaign bot should be</b>
+
+302
+01:10:00,920 --> 01:10:02,640
+<b>able to talk to my finance bot.</b>
+
+303
+01:10:02,960 --> 01:10:04,920
+<b>That should be able to talk to my</b>
+
+304
+01:10:05,640 --> 01:10:06,960
+<b>capacity management bot</b>
+
+305
+01:10:07,239 --> 01:10:10,159
+<b>so I can be at a high capacity to do my</b>
+
+306
+01:10:10,199 --> 01:10:11,880
+<b>campaign in the budget.</b>
+
+307
+01:10:12,159 --> 01:10:13,840
+<b>Okay, but let's come</b>
+
+308
+01:10:13,840 --> 01:10:15,920
+<b>back a little bit again.</b>
+
+309
+01:10:16,479 --> 01:10:20,800
+<b>There are software programs, there are</b>
+
+310
+01:10:20,880 --> 01:10:23,880
+<b>bots, chatbots, AI</b>
+
+311
+01:10:23,920 --> 01:10:26,960
+<b>tools and AI by itself.</b>
+
+312
+01:10:27,399 --> 01:10:28,479
+<b>Can you help us to</b>
+
+313
+01:10:28,520 --> 01:10:32,760
+<b>understand they all are different?</b>
+
+314
+01:10:33,199 --> 01:10:33,760
+<b>Yes.</b>
+
+315
+01:10:33,760 --> 01:10:35,520
+<b>These differences, because when we are</b>
+
+316
+01:10:35,560 --> 01:10:38,279
+<b>talking to chat GPT for example,</b>
+
+317
+01:10:38,560 --> 01:10:40,119
+<b>we are talking to chatbot.</b>
+
+318
+01:10:40,520 --> 01:10:41,000
+<b>Yes.</b>
+
+319
+01:10:41,439 --> 01:10:44,079
+<b>But this chatbot can create a code.</b>
+
+320
+01:10:44,720 --> 01:10:45,119
+<b>Yes.</b>
+
+321
+01:10:45,159 --> 01:10:47,880
+<b>That code can create a software program.</b>
+
+322
+01:10:48,319 --> 01:10:48,920
+<b>Yes.</b>
+
+323
+01:10:49,199 --> 01:10:52,039
+<b>Where is agent in between?</b>
+
+324
+01:10:52,159 --> 01:10:53,479
+<b>What does it mean agent?</b>
+
+325
+01:10:53,479 --> 01:10:54,479
+<b>What can we do?</b>
+
+326
+01:10:54,479 --> 01:10:56,840
+<b>Because this chatbot</b>
+
+327
+01:10:56,840 --> 01:10:59,199
+<b>can create agent as well.</b>
+
+328
+01:10:59,399 --> 01:11:00,079
+<b>But what is the</b>
+
+329
+01:11:00,079 --> 01:11:02,159
+<b>difference between AI tool,</b>
+
+330
+01:11:02,279 --> 01:11:04,600
+<b>I mean the tool or software program</b>
+
+331
+01:11:04,600 --> 01:11:08,159
+<b>created by AI and agent?</b>
+
+332
+01:11:08,319 --> 01:11:10,960
+<b>So how we call it in the world of</b>
+
+333
+01:11:10,960 --> 01:11:12,760
+<b>software, we call it delts.</b>
+
+334
+01:11:13,119 --> 01:11:15,199
+<b>Once you go to the chat GPT, you have</b>
+
+335
+01:11:15,199 --> 01:11:17,840
+<b>some software, some data that's working.</b>
+
+336
+01:11:17,920 --> 01:11:19,279
+<b>That's the development side.</b>
+
+337
+01:11:19,359 --> 01:11:20,760
+<b>We have some code that's working.</b>
+
+338
+01:11:21,279 --> 01:11:22,520
+<b>But once that code</b>
+
+339
+01:11:22,520 --> 01:11:25,000
+<b>becomes alive, becomes sentient,</b>
+
+340
+01:11:25,319 --> 01:11:28,039
+<b>can do the tasks by itself, can operate</b>
+
+341
+01:11:28,039 --> 01:11:29,720
+<b>by itself, we call it delts.</b>
+
+342
+01:11:30,039 --> 01:11:32,560
+<b>The bots are able to work in a world</b>
+
+343
+01:11:32,880 --> 01:11:34,319
+<b>where they get coded</b>
+
+344
+01:11:34,399 --> 01:11:35,239
+<b>and where they can</b>
+
+345
+01:11:35,319 --> 01:11:36,800
+<b>operate it at the same time.</b>
+
+346
+01:11:37,159 --> 01:11:40,079
+<b>Once I ask my grocery bot or grocery</b>
+
+347
+01:11:40,119 --> 01:11:42,279
+<b>agent to complete a task every week,</b>
+
+348
+01:11:42,560 --> 01:11:43,600
+<b>because I need to find</b>
+
+349
+01:11:43,640 --> 01:11:45,039
+<b>or get food every week,</b>
+
+350
+01:11:45,359 --> 01:11:47,039
+<b>the bot is able to go to</b>
+
+351
+01:11:47,039 --> 01:11:48,239
+<b>the test cross website,</b>
+
+352
+01:11:48,520 --> 01:11:49,920
+<b>do all the clicks that I</b>
+
+353
+01:11:49,920 --> 01:11:51,720
+<b>need to do in the digital world,</b>
+
+354
+01:11:52,039 --> 01:11:53,960
+<b>make sure that I get the items.</b>
+
+355
+01:11:54,000 --> 01:11:55,359
+<b>And if I have excessive</b>
+
+356
+01:11:55,359 --> 01:11:58,600
+<b>items, stop the system working.</b>
+
+357
+01:11:58,960 --> 01:12:01,159
+<b>In the past, once it was only developed,</b>
+
+358
+01:12:01,439 --> 01:12:03,319
+<b>not operations integrated,</b>
+
+359
+01:12:03,760 --> 01:12:05,840
+<b>it always relied on</b>
+
+360
+01:12:05,880 --> 01:12:07,880
+<b>humans to complete operations.</b>
+
+361
+01:12:08,199 --> 01:12:10,640
+<b>Once it becomes a bot, it doesn't rely</b>
+
+362
+01:12:10,680 --> 01:12:13,039
+<b>humans to complete operations,</b>
+
+363
+01:12:13,199 --> 01:12:14,560
+<b>such as I did Google</b>
+
+364
+01:12:14,560 --> 01:12:16,359
+<b>AdWords 10, 15 years ago.</b>
+
+365
+01:12:16,720 --> 01:12:18,399
+<b>I was deciding the keywords.</b>
+
+366
+01:12:18,439 --> 01:12:19,800
+<b>I was writing the title.</b>
+
+367
+01:12:19,840 --> 01:12:20,800
+<b>Now I don't do that.</b>
+
+368
+01:12:21,239 --> 01:12:22,359
+<b>I have a bot that</b>
+
+369
+01:12:22,359 --> 01:12:25,520
+<b>creates all the necessary bots</b>
+
+370
+01:12:25,600 --> 01:12:28,000
+<b>that does the title, that does the links,</b>
+
+371
+01:12:28,000 --> 01:12:29,199
+<b>that does the top nails,</b>
+
+372
+01:12:29,199 --> 01:12:30,920
+<b>that does the campaign management.</b>
+
+373
+01:12:31,239 --> 01:12:33,319
+<b>They come together to be able to do this.</b>
+
+374
+01:12:33,640 --> 01:12:36,119
+<b>20 years ago, 30 years ago, there was</b>
+
+375
+01:12:36,119 --> 01:12:38,000
+<b>this cartoon called Valtran.</b>
+
+376
+01:12:38,600 --> 01:12:41,439
+<b>In Valtran, there is this space lion that</b>
+
+377
+01:12:41,439 --> 01:12:44,239
+<b>flies in the space, and it's a robot.</b>
+
+378
+01:12:44,920 --> 01:12:46,239
+<b>The robot comes together</b>
+
+379
+01:12:46,279 --> 01:12:47,399
+<b>to be able to do the job.</b>
+
+380
+01:12:47,399 --> 01:12:48,239
+<b>So that's one of the</b>
+
+381
+01:12:48,239 --> 01:12:50,399
+<b>reasons I like the pilot thing.</b>
+
+382
+01:12:50,720 --> 01:12:52,720
+<b>Right now, what is happening is all these</b>
+
+383
+01:12:52,720 --> 01:12:54,239
+<b>bots are coming together</b>
+
+384
+01:12:54,600 --> 01:12:56,000
+<b>and delivering the job.</b>
+
+385
+01:12:56,039 --> 01:12:58,960
+<b>So this is the reason Moose has passed</b>
+
+386
+01:12:58,960 --> 01:13:01,159
+<b>chat GPT in terms of installs.</b>
+
+387
+01:13:01,439 --> 01:13:03,159
+<b>Right now, people are going to the bots</b>
+
+388
+01:13:03,159 --> 01:13:05,319
+<b>because typing to chat GPT is good.</b>
+
+389
+01:13:05,680 --> 01:13:07,199
+<b>But what you want is to be</b>
+
+390
+01:13:07,199 --> 01:13:09,000
+<b>operational in real world.</b>
+
+391
+01:13:09,399 --> 01:13:10,960
+<b>I don't want to do my visa</b>
+
+392
+01:13:10,960 --> 01:13:12,560
+<b>application every five years.</b>
+
+393
+01:13:12,840 --> 01:13:14,680
+<b>I want a bot that knows all my</b>
+
+394
+01:13:14,680 --> 01:13:15,760
+<b>information, that does</b>
+
+395
+01:13:15,760 --> 01:13:16,680
+<b>the visa application.</b>
+
+396
+01:13:17,039 --> 01:13:18,960
+<b>I want a bot to do my insurance</b>
+
+397
+01:13:18,960 --> 01:13:20,439
+<b>applications while I'm alive.</b>
+
+398
+01:13:21,239 --> 01:13:23,640
+<b>This bot, when you are saying bot, this</b>
+
+399
+01:13:23,640 --> 01:13:25,800
+<b>is that agent that you are saying</b>
+
+400
+01:13:25,880 --> 01:13:29,479
+<b>sending to do the work instead of you.</b>
+
+401
+01:13:29,960 --> 01:13:31,560
+<b>Yes, the agent and the</b>
+
+402
+01:13:31,560 --> 01:13:32,840
+<b>bot are very similar.</b>
+
+403
+01:13:33,239 --> 01:13:36,279
+<b>The agent has less autonomy than a bot.</b>
+
+404
+01:13:36,720 --> 01:13:39,760
+<b>A bot and a robot are tools</b>
+
+405
+01:13:39,800 --> 01:13:41,600
+<b>that works in the real world.</b>
+
+406
+01:13:41,640 --> 01:13:43,079
+<b>And a robot collects</b>
+
+407
+01:13:43,079 --> 01:13:44,439
+<b>data from the real world.</b>
+
+408
+01:13:44,840 --> 01:13:46,279
+<b>A bot collects the data</b>
+
+409
+01:13:46,279 --> 01:13:47,399
+<b>from the digital world.</b>
+
+410
+01:13:47,760 --> 01:13:49,159
+<b>And it doesn't have a body.</b>
+
+411
+01:13:49,920 --> 01:13:52,520
+<b>The reality of an agent, because they</b>
+
+412
+01:13:52,720 --> 01:13:54,359
+<b>started calling them agents,</b>
+
+413
+01:13:54,359 --> 01:13:56,119
+<b>then they turned into bots.</b>
+
+414
+01:13:56,199 --> 01:13:57,279
+<b>Agents are mostly</b>
+
+415
+01:13:57,279 --> 01:13:58,880
+<b>defined by software people.</b>
+
+416
+01:13:59,159 --> 01:14:01,479
+<b>And they don't go out of their harnesses.</b>
+
+417
+01:14:01,800 --> 01:14:03,800
+<b>They are locked into their stand boxes.</b>
+
+418
+01:14:03,840 --> 01:14:06,600
+<b>But these bots are more probabilistic.</b>
+
+419
+01:14:06,600 --> 01:14:07,239
+<b>They go out.</b>
+
+420
+01:14:07,239 --> 01:14:09,039
+<b>If they can't find the food in Tesco,</b>
+
+421
+01:14:09,359 --> 01:14:10,600
+<b>they will go to Sainsbury.</b>
+
+422
+01:14:10,640 --> 01:14:12,720
+<b>If they can't go to the Sainsbury, they</b>
+
+423
+01:14:12,720 --> 01:14:14,239
+<b>will knock on the door to Marjane.</b>
+
+424
+01:14:14,239 --> 01:14:15,039
+<b>Say, do you guys have</b>
+
+425
+01:14:15,119 --> 01:14:16,359
+<b>any olives that we can eat?</b>
+
+426
+01:14:16,680 --> 01:14:18,000
+<b>It will be able to do that.</b>
+
+427
+01:14:18,000 --> 01:14:20,680
+<b>So the bot is more probabilistic to be</b>
+
+428
+01:14:20,680 --> 01:14:21,960
+<b>able to complete the goal.</b>
+
+429
+01:14:22,239 --> 01:14:25,479
+<b>So that is the thing of these agents</b>
+
+430
+01:14:25,520 --> 01:14:26,800
+<b>converting into bots.</b>
+
+431
+01:14:27,039 --> 01:14:28,359
+<b>And they become more useful.</b>
+
+432
+01:14:28,399 --> 01:14:30,479
+<b>Because once I give you the task, I</b>
+
+433
+01:14:30,479 --> 01:14:31,399
+<b>really don't care how</b>
+
+434
+01:14:31,399 --> 01:14:32,479
+<b>you complete that task.</b>
+
+435
+01:14:32,560 --> 01:14:34,720
+<b>I want that goal to be achieved.</b>
+
+436
+01:14:35,159 --> 01:14:37,560
+<b>Let's talk a little bit about coding.</b>
+
+437
+01:14:37,720 --> 01:14:39,800
+<b>How is it important nowadays?</b>
+
+438
+01:14:40,199 --> 01:14:41,920
+<b>Do we need to learn</b>
+
+439
+01:14:41,920 --> 01:14:45,560
+<b>coding to use AI better?</b>
+
+440
+01:14:46,000 --> 01:14:49,520
+<b>If we go back to Socrates 3000 years ago,</b>
+
+441
+01:14:50,159 --> 01:14:52,199
+<b>they memorized all the books.</b>
+
+442
+01:14:52,720 --> 01:14:54,479
+<b>Because there is no printing press.</b>
+
+443
+01:14:54,840 --> 01:14:55,960
+<b>They used a technique</b>
+
+444
+01:14:56,000 --> 01:14:57,279
+<b>called memory palaces</b>
+
+445
+01:14:57,319 --> 01:15:00,000
+<b>to remember thousands of pages of a book.</b>
+
+446
+01:15:00,000 --> 01:15:01,840
+<b>Right now, we do not have that skill.</b>
+
+447
+01:15:01,840 --> 01:15:03,239
+<b>There are only memory</b>
+
+448
+01:15:03,239 --> 01:15:04,680
+<b>championships in the world.</b>
+
+449
+01:15:04,680 --> 01:15:06,720
+<b>There are people memorized deck of cards.</b>
+
+450
+01:15:07,439 --> 01:15:08,800
+<b>And they go to championships.</b>
+
+451
+01:15:08,880 --> 01:15:10,920
+<b>But most of the people stop doing that.</b>
+
+452
+01:15:11,279 --> 01:15:13,199
+<b>What is happening right now is because</b>
+
+453
+01:15:13,199 --> 01:15:14,880
+<b>the language gets abstracted,</b>
+
+454
+01:15:15,359 --> 01:15:18,960
+<b>people are going to become pilots rather</b>
+
+455
+01:15:18,960 --> 01:15:20,479
+<b>than riders or drivers.</b>
+
+456
+01:15:20,840 --> 01:15:23,039
+<b>Those riding and driving will</b>
+
+457
+01:15:23,079 --> 01:15:25,560
+<b>still exist in a hobby level.</b>
+
+458
+01:15:25,680 --> 01:15:28,159
+<b>People looking at a screen, using a</b>
+
+459
+01:15:28,159 --> 01:15:30,399
+<b>keyboard will be something of the past.</b>
+
+460
+01:15:30,720 --> 01:15:33,159
+<b>But that means the white collar jobs that</b>
+
+461
+01:15:33,159 --> 01:15:34,600
+<b>people got used to do</b>
+
+462
+01:15:35,039 --> 01:15:38,520
+<b>is getting disturbed a lot.</b>
+
+463
+01:15:38,800 --> 01:15:42,279
+<b>So we are going to go into a world where</b>
+
+464
+01:15:42,319 --> 01:15:44,399
+<b>we don't look at the screens.</b>
+
+465
+01:15:44,600 --> 01:15:46,399
+<b>So it could be also very plus for</b>
+
+466
+01:15:46,399 --> 01:15:47,520
+<b>people's mental health.</b>
+
+467
+01:15:47,800 --> 01:15:48,960
+<b>They don't have to look at</b>
+
+468
+01:15:48,960 --> 01:15:50,079
+<b>the screens all day long.</b>
+
+469
+01:15:50,399 --> 01:15:52,840
+<b>Because once you give delegate the job to</b>
+
+470
+01:15:52,840 --> 01:15:54,840
+<b>a bot that can do the things,</b>
+
+471
+01:15:55,159 --> 01:15:58,119
+<b>with their own agency, then you don't</b>
+
+472
+01:15:58,119 --> 01:15:59,840
+<b>need to look at the screens that much.</b>
+
+473
+01:16:00,039 --> 01:16:02,359
+<b>The other reality that we get is in</b>
+
+474
+01:16:02,359 --> 01:16:03,760
+<b>Europe, in the US, we</b>
+
+475
+01:16:03,800 --> 01:16:05,239
+<b>created lots of red tape.</b>
+
+476
+01:16:05,720 --> 01:16:08,720
+<b>We draw borders between countries.</b>
+
+477
+01:16:09,000 --> 01:16:10,079
+<b>We say this is this</b>
+
+478
+01:16:10,079 --> 01:16:11,439
+<b>government, this is that government.</b>
+
+479
+01:16:11,640 --> 01:16:13,399
+<b>That created a big</b>
+
+480
+01:16:13,399 --> 01:16:15,079
+<b>bureaucracy all over the world.</b>
+
+481
+01:16:15,560 --> 01:16:17,920
+<b>What these bots are good at is, they are</b>
+
+482
+01:16:17,920 --> 01:16:20,520
+<b>good at policy, writing,</b>
+
+483
+01:16:21,159 --> 01:16:22,800
+<b>implementing and delivering.</b>
+
+484
+01:16:22,960 --> 01:16:25,199
+<b>What we are going to see is these</b>
+
+485
+01:16:25,199 --> 01:16:26,800
+<b>government agencies are</b>
+
+486
+01:16:26,800 --> 01:16:28,359
+<b>mostly going to converge.</b>
+
+487
+01:16:28,600 --> 01:16:30,720
+<b>And all of the jobs that the government</b>
+
+488
+01:16:30,720 --> 01:16:33,279
+<b>policies done will be done by the AI,</b>
+
+489
+01:16:33,279 --> 01:16:35,039
+<b>because that is a task</b>
+
+490
+01:16:35,039 --> 01:16:37,159
+<b>that the AI can accelerate.</b>
+
+491
+01:16:37,239 --> 01:16:38,439
+<b>What does it mean for us?</b>
+
+492
+01:16:38,720 --> 01:16:41,279
+<b>We will have more time to be able to be</b>
+
+493
+01:16:41,279 --> 01:16:43,159
+<b>much, much more creative.</b>
+
+494
+01:16:43,680 --> 01:16:44,560
+<b>What does that mean?</b>
+
+495
+01:16:45,079 --> 01:16:46,880
+<b>A pilot versus a driver.</b>
+
+496
+01:16:47,279 --> 01:16:49,079
+<b>A pilot has more places</b>
+
+497
+01:16:49,079 --> 01:16:50,880
+<b>to go than a car driver.</b>
+
+498
+01:16:51,439 --> 01:16:52,960
+<b>A car driver has more</b>
+
+499
+01:16:52,960 --> 01:16:55,039
+<b>places than a go than a rider,</b>
+
+500
+01:16:55,039 --> 01:16:56,199
+<b>because rider all this</b>
+
+501
+01:16:56,239 --> 01:16:57,279
+<b>depends on the horse.</b>
+
+502
+01:16:57,560 --> 01:16:59,720
+<b>Car also depends on the car.</b>
+
+503
+01:16:59,880 --> 01:17:01,880
+<b>The pilot depends on the plane.</b>
+
+504
+01:17:01,920 --> 01:17:04,600
+<b>The plane has more engineering in it.</b>
+
+505
+01:17:04,600 --> 01:17:05,960
+<b>To answer your question,</b>
+
+506
+01:17:06,079 --> 01:17:07,680
+<b>to answer your question,</b>
+
+507
+01:17:08,159 --> 01:17:11,039
+<b>the engineering has to be learned.</b>
+
+508
+01:17:11,079 --> 01:17:14,279
+<b>Because once you fly a plane as a pilot,</b>
+
+509
+01:17:14,399 --> 01:17:15,399
+<b>you are going to get</b>
+
+510
+01:17:15,399 --> 01:17:17,880
+<b>trained more, not less.</b>
+
+511
+01:17:18,199 --> 01:17:19,520
+<b>Most of the time people think</b>
+
+512
+01:17:19,520 --> 01:17:20,600
+<b>that I will get trained less.</b>
+
+513
+01:17:21,239 --> 01:17:22,760
+<b>From a horse to a car,</b>
+
+514
+01:17:23,199 --> 01:17:24,439
+<b>you have to get licensed.</b>
+
+515
+01:17:25,880 --> 01:17:27,880
+<b>To understand there is an engine, there</b>
+
+516
+01:17:27,880 --> 01:17:28,720
+<b>is a back, there is</b>
+
+517
+01:17:28,720 --> 01:17:30,279
+<b>insurance, there is fatalities.</b>
+
+518
+01:17:30,960 --> 01:17:32,880
+<b>With a plane, the risk is higher.</b>
+
+519
+01:17:33,600 --> 01:17:35,159
+<b>If I had 300 boats, I</b>
+
+520
+01:17:35,159 --> 01:17:35,720
+<b>would have more dangers.</b>
+
+521
+01:17:36,279 --> 01:17:37,800
+<b>So I need to get certified.</b>
+
+522
+01:17:38,159 --> 01:17:39,159
+<b>I need to make sure</b>
+
+523
+01:17:39,159 --> 01:17:40,520
+<b>that I can engineer this.</b>
+
+524
+01:17:40,920 --> 01:17:42,159
+<b>To answer your question, would</b>
+
+525
+01:17:42,159 --> 01:17:44,560
+<b>I need to memorize 300 pages?</b>
+
+526
+01:17:44,840 --> 01:17:45,039
+<b>No.</b>
+
+527
+01:17:45,600 --> 01:17:47,199
+<b>But I will watch more.</b>
+
+528
+01:17:47,399 --> 01:17:48,720
+<b>I will understand more.</b>
+
+529
+01:17:48,720 --> 01:17:49,439
+<b>I will comment.</b>
+
+530
+01:17:49,640 --> 01:17:50,479
+<b>I will conquer more.</b>
+
+531
+01:17:50,920 --> 01:17:55,159
+<b>Then we are turning to the subject why</b>
+
+532
+01:17:55,239 --> 01:17:58,399
+<b>continuous learning is so important.</b>
+
+533
+01:17:58,800 --> 01:18:01,720
+<b>And it's more and more important day by</b>
+
+534
+01:18:01,720 --> 01:18:03,119
+<b>day that we cannot</b>
+
+535
+01:18:03,119 --> 01:18:05,239
+<b>stop learning new things.</b>
+
+536
+01:18:05,720 --> 01:18:06,199
+<b>Yes.</b>
+
+537
+01:18:06,640 --> 01:18:07,760
+<b>That is the reality.</b>
+
+538
+01:18:07,760 --> 01:18:09,199
+<b>I had a different idea.</b>
+
+539
+01:18:09,199 --> 01:18:10,720
+<b>10 years ago, if you ask me this</b>
+
+540
+01:18:10,720 --> 01:18:13,159
+<b>question, I taught, I live in Cambridge,</b>
+
+541
+01:18:13,159 --> 01:18:13,920
+<b>the University of</b>
+
+542
+01:18:13,920 --> 01:18:15,319
+<b>Cambridge, where we will go down.</b>
+
+543
+01:18:15,800 --> 01:18:18,600
+<b>But right now my idea is the adult</b>
+
+544
+01:18:18,600 --> 01:18:20,279
+<b>education is going to rise.</b>
+
+545
+01:18:20,600 --> 01:18:23,159
+<b>Because being a pilot requires you to</b>
+
+546
+01:18:23,199 --> 01:18:24,560
+<b>know more, to understand</b>
+
+547
+01:18:24,560 --> 01:18:26,760
+<b>more, to experience more.</b>
+
+548
+01:18:27,199 --> 01:18:31,159
+<b>And people are going to realize they</b>
+
+549
+01:18:31,199 --> 01:18:33,279
+<b>already watch more YouTube than ever.</b>
+
+550
+01:18:33,520 --> 01:18:34,439
+<b>YouTube is a</b>
+
+551
+01:18:34,760 --> 01:18:36,880
+<b>nonfiction source of education.</b>
+
+552
+01:18:36,920 --> 01:18:38,239
+<b>Everybody is trying to learn.</b>
+
+553
+01:18:38,359 --> 01:18:39,920
+<b>Right now, all over the</b>
+
+554
+01:18:39,920 --> 01:18:41,840
+<b>world, everybody is scaling up.</b>
+
+555
+01:18:42,199 --> 01:18:44,680
+<b>Once Africa comes into the game, once</b>
+
+556
+01:18:44,720 --> 01:18:46,159
+<b>India comes into the game</b>
+
+557
+01:18:46,159 --> 01:18:48,000
+<b>with all these satellites</b>
+
+558
+01:18:48,439 --> 01:18:50,680
+<b>learning, we will have a much different</b>
+
+559
+01:18:50,680 --> 01:18:51,920
+<b>world where everybody</b>
+
+560
+01:18:52,199 --> 01:18:53,640
+<b>is continuously learning.</b>
+
+561
+01:18:53,760 --> 01:18:55,520
+<b>And that is going to be the main thing.</b>
+
+562
+01:18:55,920 --> 01:18:58,199
+<b>That will become bread and butter for</b>
+
+563
+01:18:58,199 --> 01:19:00,960
+<b>everyone, especially for the adults, to</b>
+
+564
+01:19:00,960 --> 01:19:02,039
+<b>learn more and more.</b>
+
+565
+01:19:02,560 --> 01:19:05,840
+<b>I know that you like to learn a lot and</b>
+
+566
+01:19:05,840 --> 01:19:08,000
+<b>you've been learning a lot continuously.</b>
+
+567
+01:19:08,399 --> 01:19:11,159
+<b>But what else you like?</b>
+
+568
+01:19:11,359 --> 01:19:12,279
+<b>A lot of swell.</b>
+
+569
+01:19:12,279 --> 01:19:13,840
+<b>You like to teach people.</b>
+
+570
+01:19:14,119 --> 01:19:14,720
+<b>What do you think?</b>
+
+571
+01:19:14,720 --> 01:19:15,279
+<b>Why?</b>
+
+572
+01:19:15,960 --> 01:19:19,319
+<b>The reason is if I go to these groups,</b>
+
+573
+01:19:19,560 --> 01:19:21,359
+<b>communities, if you don't</b>
+
+574
+01:19:21,359 --> 01:19:23,079
+<b>give it to somebody else,</b>
+
+575
+01:19:23,159 --> 01:19:25,720
+<b>I think what we do is meaningless, such</b>
+
+576
+01:19:25,720 --> 01:19:27,000
+<b>as we started doing</b>
+
+577
+01:19:27,000 --> 01:19:29,159
+<b>this Cambridge AI meetups.</b>
+
+578
+01:19:29,760 --> 01:19:32,560
+<b>If this information only lies with me,</b>
+
+579
+01:19:32,600 --> 01:19:34,319
+<b>then it is not that meaningful.</b>
+
+580
+01:19:34,359 --> 01:19:37,920
+<b>But what is meaningful for me is to share</b>
+
+581
+01:19:37,920 --> 01:19:39,560
+<b>this experience with others.</b>
+
+582
+01:19:39,600 --> 01:19:42,079
+<b>And I see that right now everybody,</b>
+
+583
+01:19:42,079 --> 01:19:44,439
+<b>including myself, is having a hard time</b>
+
+584
+01:19:44,800 --> 01:19:46,560
+<b>being able to adapt because</b>
+
+585
+01:19:46,560 --> 01:19:48,880
+<b>the jobs give meaning to people.</b>
+
+586
+01:19:48,920 --> 01:19:52,399
+<b>My research paper is all about when AGI</b>
+
+587
+01:19:52,399 --> 01:19:53,840
+<b>comes in, what's going to</b>
+
+588
+01:19:53,840 --> 01:19:55,039
+<b>happen to the workforce?</b>
+
+589
+01:19:55,239 --> 01:19:57,359
+<b>Because people ride these</b>
+
+590
+01:19:57,359 --> 01:19:59,000
+<b>horses for hundreds of years.</b>
+
+591
+01:19:59,039 --> 01:20:00,239
+<b>Once the horses are not</b>
+
+592
+01:20:00,239 --> 01:20:02,600
+<b>there, they lose their meaning.</b>
+
+593
+01:20:03,079 --> 01:20:06,800
+<b>Once right now, 20-30% of the world is</b>
+
+594
+01:20:06,960 --> 01:20:08,439
+<b>doing a desk-based job.</b>
+
+595
+01:20:08,720 --> 01:20:10,319
+<b>Their jobs are going to go away.</b>
+
+596
+01:20:10,359 --> 01:20:12,560
+<b>So that's an important time right now.</b>
+
+597
+01:20:12,920 --> 01:20:14,560
+<b>In history, we need to find a</b>
+
+598
+01:20:14,560 --> 01:20:16,279
+<b>way what we are going to do.</b>
+
+599
+01:20:16,399 --> 01:20:19,760
+<b>And instead of trying to hold on to these</b>
+
+600
+01:20:19,840 --> 01:20:21,000
+<b>old jobs, being a</b>
+
+601
+01:20:21,000 --> 01:20:22,640
+<b>developer, being a tester,</b>
+
+602
+01:20:22,680 --> 01:20:26,399
+<b>being an accountant, being a lawyer, we</b>
+
+603
+01:20:26,399 --> 01:20:27,920
+<b>need to make sure we go</b>
+
+604
+01:20:27,960 --> 01:20:29,520
+<b>to a more creative world</b>
+
+605
+01:20:29,840 --> 01:20:32,399
+<b>where we are not just only accountants,</b>
+
+606
+01:20:32,600 --> 01:20:34,199
+<b>insurance developers,</b>
+
+607
+01:20:34,199 --> 01:20:35,279
+<b>but we are all of them</b>
+
+608
+01:20:35,640 --> 01:20:37,159
+<b>by using these bots and</b>
+
+609
+01:20:37,159 --> 01:20:38,520
+<b>coordinating those bots.</b>
+
+610
+01:20:38,520 --> 01:20:41,560
+<b>We become like directors to those bots.</b>
+
+611
+01:20:41,800 --> 01:20:43,479
+<b>And that becomes our job.</b>
+
+612
+01:20:43,479 --> 01:20:45,399
+<b>We are not going to only direct ourselves</b>
+
+613
+01:20:45,399 --> 01:20:47,479
+<b>but direct more than ever.</b>
+
+614
+01:20:47,840 --> 01:20:51,039
+<b>Right now this already happens in any</b>
+
+615
+01:20:51,039 --> 01:20:52,439
+<b>flat or in any house.</b>
+
+616
+01:20:53,159 --> 01:20:54,079
+<b>If you are cooking,</b>
+
+617
+01:20:54,520 --> 01:20:56,039
+<b>cleaning, doing the drying,</b>
+
+618
+01:20:56,439 --> 01:20:58,800
+<b>you are using old robots in the house but</b>
+
+619
+01:20:58,800 --> 01:21:00,640
+<b>there's no agent in the middle.</b>
+
+620
+01:21:01,399 --> 01:21:02,039
+<b>You are the robots.</b>
+
+621
+01:21:02,439 --> 01:21:03,920
+<b>You command the machines.</b>
+
+622
+01:21:04,159 --> 01:21:05,279
+<b>You do all the hands-on.</b>
+
+623
+01:21:05,800 --> 01:21:07,359
+<b>But the future is there's</b>
+
+624
+01:21:07,359 --> 01:21:08,479
+<b>going to be an intermediary.</b>
+
+625
+01:21:08,920 --> 01:21:12,560
+<b>We are going to pilot that machine or the</b>
+
+626
+01:21:12,600 --> 01:21:13,840
+<b>abstract software to</b>
+
+627
+01:21:13,840 --> 01:21:14,880
+<b>be able to do the job.</b>
+
+628
+01:21:15,199 --> 01:21:16,600
+<b>So this is where we are going.</b>
+
+629
+01:21:16,720 --> 01:21:17,319
+<b>And I'm very</b>
+
+630
+01:21:17,359 --> 01:21:19,000
+<b>passionate about going there.</b>
+
+631
+01:21:19,399 --> 01:21:21,000
+<b>The reason is we have lots</b>
+
+632
+01:21:21,000 --> 01:21:22,319
+<b>of gatekeepers right now,</b>
+
+633
+01:21:22,760 --> 01:21:23,640
+<b>such as I'm a</b>
+
+634
+01:21:23,680 --> 01:21:25,600
+<b>gatekeeper of all my knowledge.</b>
+
+635
+01:21:26,000 --> 01:21:27,000
+<b>If I don't share it,</b>
+
+636
+01:21:27,000 --> 01:21:28,159
+<b>that knowledge goes away.</b>
+
+637
+01:21:28,159 --> 01:21:29,560
+<b>But with the rise of AI,</b>
+
+638
+01:21:29,680 --> 01:21:31,239
+<b>you are a nuclear scientist.</b>
+
+639
+01:21:31,720 --> 01:21:33,479
+<b>Everybody's a nuclear scientist.</b>
+
+640
+01:21:33,520 --> 01:21:35,239
+<b>We don't need to raise a nuclear</b>
+
+641
+01:21:35,239 --> 01:21:36,560
+<b>scientist and take them to</b>
+
+642
+01:21:36,560 --> 01:21:38,399
+<b>the university for 40 years.</b>
+
+643
+01:21:38,439 --> 01:21:40,279
+<b>We need pilots that can</b>
+
+644
+01:21:40,279 --> 01:21:41,359
+<b>do the nuclear science,</b>
+
+645
+01:21:41,359 --> 01:21:42,439
+<b>that can do the civil</b>
+
+646
+01:21:42,439 --> 01:21:43,760
+<b>engineering at the same time.</b>
+
+647
+01:21:44,079 --> 01:21:46,960
+<b>So we will be able to remove the barriers</b>
+
+648
+01:21:47,319 --> 01:21:49,239
+<b>of the schools that only</b>
+
+649
+01:21:49,239 --> 01:21:50,439
+<b>focus on nuclear science,</b>
+
+650
+01:21:50,439 --> 01:21:53,039
+<b>that only focus on one subject.</b>
+
+651
+01:21:53,479 --> 01:21:55,279
+<b>But this is going to have</b>
+
+652
+01:21:55,319 --> 01:21:57,640
+<b>also an impact of the society.</b>
+
+653
+01:21:57,920 --> 01:22:00,079
+<b>Because in the university we learn that</b>
+
+654
+01:22:00,079 --> 01:22:01,800
+<b>we need to have only one major,</b>
+
+655
+01:22:01,880 --> 01:22:03,760
+<b>maybe max two, my mom</b>
+
+656
+01:22:03,760 --> 01:22:05,960
+<b>did math and physics.</b>
+
+657
+01:22:06,239 --> 01:22:07,479
+<b>Not that many majors.</b>
+
+658
+01:22:07,520 --> 01:22:08,680
+<b>But then we are going to</b>
+
+659
+01:22:08,680 --> 01:22:10,520
+<b>realize once AI does the job,</b>
+
+660
+01:22:11,000 --> 01:22:12,359
+<b>your job is to learn.</b>
+
+661
+01:22:12,760 --> 01:22:14,520
+<b>Once you are learning, why are you</b>
+
+662
+01:22:14,520 --> 01:22:15,800
+<b>learning on the one major?</b>
+
+663
+01:22:16,039 --> 01:22:18,119
+<b>Because your job is to become a pilot.</b>
+
+664
+01:22:18,520 --> 01:22:20,520
+<b>A plane versus a car.</b>
+
+665
+01:22:20,840 --> 01:22:23,720
+<b>You need to become much, much, much more</b>
+
+666
+01:22:23,760 --> 01:22:26,079
+<b>creative and do meaningful stuff.</b>
+
+667
+01:22:26,359 --> 01:22:28,159
+<b>They will expect you to</b>
+
+668
+01:22:28,159 --> 01:22:29,479
+<b>become a scientist as well.</b>
+
+669
+01:22:29,479 --> 01:22:31,039
+<b>Because you have all the</b>
+
+670
+01:22:31,039 --> 01:22:32,319
+<b>agents you are disposed of.</b>
+
+671
+01:22:32,359 --> 01:22:34,079
+<b>You need to come up with the new science.</b>
+
+672
+01:22:34,399 --> 01:22:36,439
+<b>You need to come up with creative ways to</b>
+
+673
+01:22:36,439 --> 01:22:37,439
+<b>be able to do this stuff.</b>
+
+674
+01:22:37,960 --> 01:22:39,279
+<b>Let's talk a little bit</b>
+
+675
+01:22:39,359 --> 01:22:42,880
+<b>about the mind digestion system.</b>
+
+676
+01:22:43,399 --> 01:22:44,600
+<b>Because we had a very</b>
+
+677
+01:22:44,600 --> 01:22:47,760
+<b>interesting case when you asked AI</b>
+
+678
+01:22:47,800 --> 01:22:49,159
+<b>how much time it will</b>
+
+679
+01:22:49,159 --> 01:22:50,800
+<b>take to average person</b>
+
+680
+01:22:51,279 --> 01:22:53,880
+<b>to absorb the information that you</b>
+
+681
+01:22:53,880 --> 01:22:55,600
+<b>provided in a few minutes.</b>
+
+682
+01:22:56,000 --> 01:23:00,039
+<b>I mean that it takes time and as early as</b>
+
+683
+01:23:00,039 --> 01:23:01,880
+<b>we are starting to work,</b>
+
+684
+01:23:01,880 --> 01:23:06,159
+<b>it's just to adopt AI for our mind.</b>
+
+685
+01:23:06,159 --> 01:23:09,199
+<b>Like we have our mind to learn it, to be</b>
+
+686
+01:23:09,199 --> 01:23:11,039
+<b>with it, to live with it.</b>
+
+687
+01:23:11,319 --> 01:23:12,920
+<b>It is not only about learning.</b>
+
+688
+01:23:12,920 --> 01:23:17,039
+<b>It's about to learn how to live with AI</b>
+
+689
+01:23:17,520 --> 01:23:19,800
+<b>as soon as I can say</b>
+
+690
+01:23:19,840 --> 01:23:21,119
+<b>based on my experience.</b>
+
+691
+01:23:21,560 --> 01:23:23,920
+<b>Then when I started it was complicated.</b>
+
+692
+01:23:24,159 --> 01:23:26,079
+<b>But every time, month by</b>
+
+693
+01:23:26,079 --> 01:23:28,520
+<b>month, I can do more and more.</b>
+
+694
+01:23:28,920 --> 01:23:30,680
+<b>But it's not possible to</b>
+
+695
+01:23:30,720 --> 01:23:32,800
+<b>do a lot in the beginning.</b>
+
+696
+01:23:33,039 --> 01:23:35,239
+<b>You have to adopt</b>
+
+697
+01:23:35,239 --> 01:23:36,600
+<b>your mind to that, right?</b>
+
+698
+01:23:37,119 --> 01:23:37,720
+<b>Yes.</b>
+
+699
+01:23:38,000 --> 01:23:39,039
+<b>The self-learning,</b>
+
+700
+01:23:39,079 --> 01:23:40,680
+<b>that was my core niche.</b>
+
+701
+01:23:41,039 --> 01:23:43,760
+<b>I started this niche 10 years ago.</b>
+
+702
+01:23:44,119 --> 01:23:44,840
+<b>There was not that</b>
+
+703
+01:23:44,880 --> 01:23:46,000
+<b>many people in this niche.</b>
+
+704
+01:23:46,000 --> 01:23:48,399
+<b>Still there's not that many people on the</b>
+
+705
+01:23:48,399 --> 01:23:49,520
+<b>self-learning niche.</b>
+
+706
+01:23:49,880 --> 01:23:52,279
+<b>I think it's going to become big and our</b>
+
+707
+01:23:52,279 --> 01:23:54,840
+<b>job is going to become self-learners.</b>
+
+708
+01:23:55,119 --> 01:23:57,960
+<b>Because once AI does the job, we either</b>
+
+709
+01:23:57,960 --> 01:23:59,600
+<b>go to our corner or we</b>
+
+710
+01:23:59,600 --> 01:24:01,000
+<b>become very creative and</b>
+
+711
+01:24:01,000 --> 01:24:02,359
+<b>we become self-learners.</b>
+
+712
+01:24:02,760 --> 01:24:06,399
+<b>And our job becomes learning and creating</b>
+
+713
+01:24:06,399 --> 01:24:09,279
+<b>because we need to, in my perception,</b>
+
+714
+01:24:09,560 --> 01:24:11,319
+<b>the pilots needs to be creative.</b>
+
+715
+01:24:11,880 --> 01:24:13,800
+<b>The pilots needs to be operative.</b>
+
+716
+01:24:14,279 --> 01:24:16,720
+<b>The pilots needs to be builders.</b>
+
+717
+01:24:16,760 --> 01:24:18,279
+<b>They need to be architects.</b>
+
+718
+01:24:18,560 --> 01:24:20,399
+<b>They need to treasure the things and they</b>
+
+719
+01:24:20,399 --> 01:24:21,960
+<b>need to become strategists.</b>
+
+720
+01:24:22,279 --> 01:24:25,159
+<b>I call this cobalt to make sure that what</b>
+
+721
+01:24:25,159 --> 01:24:27,159
+<b>does a pilot do in a nutshell?</b>
+
+722
+01:24:27,479 --> 01:24:29,680
+<b>They need to be able to create and</b>
+
+723
+01:24:29,720 --> 01:24:31,319
+<b>operate all day long.</b>
+
+724
+01:24:31,840 --> 01:24:32,560
+<b>Great.</b>
+
+725
+01:24:33,079 --> 01:24:37,439
+<b>Let's talk a few sentences about the</b>
+
+726
+01:24:37,479 --> 01:24:39,600
+<b>workshop that you are running.</b>
+
+727
+01:24:40,279 --> 01:24:40,720
+<b>Yes.</b>
+
+728
+01:24:40,760 --> 01:24:43,279
+<b>We are doing the Eventbrite workshops in</b>
+
+729
+01:24:43,279 --> 01:24:44,680
+<b>Cambridge sixth form college.</b>
+
+730
+01:24:45,039 --> 01:24:46,520
+<b>People can sign up in</b>
+
+731
+01:24:46,520 --> 01:24:48,520
+<b>Cambridge and they can join us.</b>
+
+732
+01:24:48,880 --> 01:24:51,239
+<b>We have a free session on the school</b>
+
+733
+01:24:51,239 --> 01:24:52,880
+<b>platform where we come</b>
+
+734
+01:24:52,920 --> 01:24:55,560
+<b>together every week on Sunday,</b>
+
+735
+01:24:55,720 --> 01:24:59,079
+<b>1 30 so they can come in and showcase</b>
+
+736
+01:24:59,119 --> 01:24:59,880
+<b>what they are doing.</b>
+
+737
+01:24:59,920 --> 01:25:01,920
+<b>We have a session where we meet up.</b>
+
+738
+01:25:02,239 --> 01:25:05,000
+<b>We go through one topic, then we talk</b>
+
+739
+01:25:05,000 --> 01:25:06,760
+<b>about what we are grateful of,</b>
+
+740
+01:25:07,079 --> 01:25:08,039
+<b>what we learned, what</b>
+
+741
+01:25:08,039 --> 01:25:09,279
+<b>we implemented that week.</b>
+
+742
+01:25:09,680 --> 01:25:12,159
+<b>Our on-site sessions are mostly about</b>
+
+743
+01:25:12,159 --> 01:25:13,760
+<b>people coming in, doing</b>
+
+744
+01:25:13,760 --> 01:25:15,760
+<b>the things hands-on because</b>
+
+745
+01:25:15,760 --> 01:25:18,159
+<b>we always need somebody supporting this.</b>
+
+746
+01:25:18,800 --> 01:25:20,920
+<b>We are very, very passionate about these</b>
+
+747
+01:25:20,920 --> 01:25:23,560
+<b>delivery pilots going online.</b>
+
+748
+01:25:23,560 --> 01:25:26,680
+<b>People delivering, not just integrating,</b>
+
+749
+01:25:27,159 --> 01:25:29,920
+<b>delivering the solutions as a pilot.</b>
+
+750
+01:25:30,439 --> 01:25:32,319
+<b>We are very focused on it and we are</b>
+
+751
+01:25:32,319 --> 01:25:33,520
+<b>blessed in Cambridge.</b>
+
+752
+01:25:33,520 --> 01:25:36,039
+<b>There's a community that people are very</b>
+
+753
+01:25:36,039 --> 01:25:38,039
+<b>interested on learning these things.</b>
+
+754
+01:25:38,079 --> 01:25:39,680
+<b>But if you are not in this area,</b>
+
+755
+01:25:39,720 --> 01:25:42,199
+<b>definitely go to the school community.</b>
+
+756
+01:25:42,239 --> 01:25:44,239
+<b>It is free for the</b>
+
+757
+01:25:44,279 --> 01:25:46,079
+<b>students to come in and join.</b>
+
+758
+01:25:46,399 --> 01:25:47,680
+<b>There's a symbolic fee</b>
+
+759
+01:25:47,680 --> 01:25:48,960
+<b>for the professionals.</b>
+
+760
+01:25:49,319 --> 01:25:51,520
+<b>And if the business is not, they can get</b>
+
+761
+01:25:51,600 --> 01:25:53,199
+<b>managed service as these</b>
+
+762
+01:25:53,199 --> 01:25:55,399
+<b>bots and be able to implement.</b>
+
+763
+01:25:55,600 --> 01:25:58,359
+<b>Are there any requirements that you have</b>
+
+764
+01:25:58,359 --> 01:26:00,279
+<b>to know or to be prepared</b>
+
+765
+01:26:00,319 --> 01:26:02,920
+<b>before joining school community?</b>
+
+766
+01:26:02,920 --> 01:26:04,119
+<b>No. For the school, there</b>
+
+767
+01:26:04,119 --> 01:26:05,840
+<b>are no requirements.</b>
+
+768
+01:26:05,880 --> 01:26:08,479
+<b>In the past, if you needed to go to a</b>
+
+769
+01:26:08,880 --> 01:26:10,399
+<b>computer language class,</b>
+
+770
+01:26:10,399 --> 01:26:11,880
+<b>you needed to have a</b>
+
+771
+01:26:12,319 --> 01:26:14,680
+<b>programming language as a prerequisite.</b>
+
+772
+01:26:14,960 --> 01:26:17,560
+<b>In this case, with the AI, most of the</b>
+
+773
+01:26:17,560 --> 01:26:20,199
+<b>technical stuff is taken care of by AI.</b>
+
+774
+01:26:20,199 --> 01:26:21,920
+<b>But you need to have basics.</b>
+
+775
+01:26:21,960 --> 01:26:22,920
+<b>A computer and an</b>
+
+776
+01:26:22,920 --> 01:26:24,680
+<b>internet connection is a must.</b>
+
+777
+01:26:24,760 --> 01:26:26,720
+<b>A mobile phone is a must.</b>
+
+778
+01:26:26,760 --> 01:26:29,600
+<b>As long as you have the gear and the will</b>
+
+779
+01:26:29,600 --> 01:26:30,800
+<b>to learn, you are good too.</b>
+
+780
+01:26:31,640 --> 01:26:34,279
+<b>If someone is thinking, "Oh, AI isn't for</b>
+
+781
+01:26:34,279 --> 01:26:36,800
+<b>me," what can you say?</b>
+
+782
+01:26:37,319 --> 01:26:40,119
+<b>Yes, they said this as well during the</b>
+
+783
+01:26:40,159 --> 01:26:41,600
+<b>revolution of the cars.</b>
+
+784
+01:26:41,920 --> 01:26:44,680
+<b>You can always stay like an Amish.</b>
+
+785
+01:26:44,720 --> 01:26:46,000
+<b>Amish people don't use</b>
+
+786
+01:26:46,560 --> 01:26:48,159
+<b>internal combustion engines.</b>
+
+787
+01:26:48,159 --> 01:26:51,199
+<b>They always use the horses.</b>
+
+788
+01:26:51,520 --> 01:26:54,399
+<b>You can still stay there, but all of the</b>
+
+789
+01:26:54,399 --> 01:26:55,279
+<b>world is right now</b>
+
+790
+01:26:55,279 --> 01:26:57,880
+<b>moving to AI-based world.</b>
+
+791
+01:26:57,880 --> 01:26:59,159
+<b>And the large language</b>
+
+792
+01:26:59,159 --> 01:27:00,880
+<b>models are just the engine.</b>
+
+793
+01:27:01,479 --> 01:27:03,800
+<b>So the things happening around them,</b>
+
+794
+01:27:04,199 --> 01:27:06,079
+<b>people are building platforms.</b>
+
+795
+01:27:06,239 --> 01:27:08,000
+<b>People are building economies.</b>
+
+796
+01:27:08,039 --> 01:27:09,399
+<b>And this is the greatest</b>
+
+797
+01:27:09,479 --> 01:27:11,800
+<b>investment of humanity.</b>
+
+798
+01:27:12,279 --> 01:27:14,880
+<b>Right now, the AI investment bypassed the</b>
+
+799
+01:27:14,920 --> 01:27:16,159
+<b>industrial revolution,</b>
+
+800
+01:27:16,479 --> 01:27:18,680
+<b>rail-made investments.</b>
+
+801
+01:27:18,760 --> 01:27:21,399
+<b>So we are right now in an era, everybody</b>
+
+802
+01:27:21,399 --> 01:27:23,479
+<b>is putting their chips in</b>
+
+803
+01:27:23,800 --> 01:27:24,920
+<b>into this new</b>
+
+804
+01:27:25,039 --> 01:27:27,520
+<b>AI-based, new bot-based world.</b>
+
+805
+01:27:27,800 --> 01:27:29,399
+<b>So we are trying to go there.</b>
+
+806
+01:27:29,960 --> 01:27:30,640
+<b>Thank you.</b>
+
+807
+01:27:31,079 --> 01:27:31,960
+<b>Thank you very much.</b>
+
+808
+01:27:32,119 --> 01:27:32,680
+<b>Thank you.</b>
+
+809
+01:27:33,159 --> 01:27:34,600
+<b>This could be very long.</b>
+
+810
+01:27:34,840 --> 01:27:35,479
+<b>This could be good.</b>
+
