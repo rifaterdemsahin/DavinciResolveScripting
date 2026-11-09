@@ -5,7 +5,10 @@ Weekly video folder for the week of 9 November 2026.
 | File | What it is |
 |------|------------|
 | `script.md` | Full interview transcript from DaVinci Resolve, split into chapters with speaker labels |
-| `EDIT_PLAN.md` | Plan for the cuts, chapter markers and captions, and the scripts to automate them in Resolve |
+| `EDIT_PLAN.md` | Plan for the cuts, chapter markers and captions, and how to run the scripts in Resolve |
+| `cut_list.lua` | Approved cuts, chapters and silence settings, read by `5_Symbols/mark_cuts.lua` |
+| `raw.srt` | *(you add this)* Resolve transcription export: File → Export → Subtitle |
+| `mark_cuts_report.txt`, `youtube_chapters.txt` | *(generated)* by the scripts |
 
 ## People
 
@@ -29,7 +32,7 @@ Weekly video folder for the week of 9 November 2026.
 13. Requirements to join
 14. "AI isn't for me"
 
-Pre-roll ("More, more… Recording? Yes") and post-roll ("This could be very long…") are marked as cut.
+Every cut (C1–C11) is shown in `script.md` as ~~struck-through~~ text with a ✂ tag.
 
 ## Change log
 
@@ -72,6 +75,18 @@ Notes for review:
 
 - The note said "obstructed → abstracted, > distrubted". I've read it as two separate fixes: "obstructed" becomes "abstracted", and "disturbed" (ch. 8) becomes "disrupted". If "distributed" was meant somewhere instead, tell me and I'll change it.
 - The opening line ("Okay, hello, Marianna. Let's talk about…") is still labelled **Marianna**. If Rifat says the "hello, Marianna" part, it should be split off as a Rifat line.
+
+### Update 3 — edit decisions (2026-11-09)
+
+| Change | Where |
+|--------|-------|
+| "Okay, hello, Marianna." split off as a **Rifat** line. Marianna's first line now starts at "Let's talk about technologies…" | Opening |
+| Cuts C1–C11 marked in `script.md` (~~strike~~ + ✂ tag) | Throughout |
+| C5 (Yes / back-and-forth) → **cut** | Ch. 6 |
+| C10 ("managed service" sentence) → **cut** | Ch. 12 |
+| Shorts / YELLOW clip markers → **removed from scope** | `EDIT_PLAN.md` |
+| Silence target 0.3 s → **0.4 s** | `cut_list.lua` |
+| Added `cut_list.lua`, `5_Symbols/mark_cuts.lua`, `5_Symbols/apply_cuts.lua` | Scripts |
 
 ### Still unconfirmed (left as transcribed)
 

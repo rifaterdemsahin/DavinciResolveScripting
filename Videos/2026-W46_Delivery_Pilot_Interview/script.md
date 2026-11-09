@@ -3,10 +3,11 @@
 - **Week:** 2026-W46 (week of 9 November 2026)
 - **Format:** Interview — Marianna (guest, asks the questions) with Rifat Erdem Sahin (main host)
 - **Source:** Raw transcript exported from DaVinci Resolve. Text is kept as spoken; confirmed corrections applied, see `README.md` for the change log.
+- **Edit marks:** ~~struck-through text~~ with a ✂ tag is cut in the edit (IDs match `EDIT_PLAN.md` / `cut_list.lua`).
 
 ---
 
-## Pre-roll (cut)
+## Pre-roll ✂ C1
 
 > More, more.
 >
@@ -18,7 +19,9 @@
 
 ## 1. Opening — Why technology?
 
-**Marianna:** Okay, hello, Marianna. Let's talk about technologies, AI, progress, evolution and human because it's a very important subject and it becomes more and more complicated for us to deal with it. And let's start from technologies and your experience because all your life you are focusing on technologies it's something that you are in love with. Tell me why? What made you so interested in technologies?
+**Rifat:** Okay, hello, Marianna.
+
+**Marianna:** Let's talk about technologies, AI, progress, evolution and human because it's a very important subject and it becomes more and more complicated for us to deal with it. And let's start from technologies and your experience because all your life you are focusing on technologies it's something that you are in love with. Tell me why? What made you so interested in technologies?
 
 **Rifat:** So the reality is I'm passionate about technology because from a kid I always fantasized to become a pilot. Once you said let's do a delivery pilot, it made my two of my childhood things come true. One from my adulthood which is called continuous integration and continuous delivery. 10, 20 years ago doing continuous integration was impossible for most of the teams. Most of the teams were unable to integrate the code. And now we came to an age with the rise of the AI. We can do the continuous integration. Now it is time to do the continuous delivery which brings me to my childhood. In my childhood I was watching the movies where these mech robots, the suits, the arc suits were able to go to the other planets, be able to terraform them and do all these magic stuff. But the reality is being a pilot is very very expensive right now to hold a plane in the air is very hard. But with the rise of the AI it all changed. What happened is we are becoming from a driver to a pilot. So I called it delivery pilot and that's the reason I'm very passionate about it. Not just to make money but make sure that this new profession comes to life.
 
@@ -36,7 +39,7 @@
 
 ## 4. AI skills — Rider, Driver, Pilot
 
-**Marianna:** Okay, you jumped already to bots. I think it's too fast. Let's talk about AI skills. What does it mean? Why we need it? Because I think that it's more popular to use chat with AI. To use AI just chatting about the problems, making some solutions, brainstorming etc. But it's much more. AI can do much more than that.
+**Marianna:** ~~Okay, you jumped already to bots. I think it's too fast.~~ ✂ C2 ~~Let's talk about AI skills. What does it mean? Why we need it? Because I think that it's more popular to use chat with AI. To use AI just chatting about the problems, making some solutions, brainstorming etc. But it's much more. AI can do much more than that.~~ ✂ C3
 
 Let's talk about AI skills first. How do you understand AI skills and why it's important?
 
@@ -52,21 +55,9 @@ Where we are going through in the world is, we are going to create all these lit
 
 ## 6. Software, chatbots, AI tools, agents — what's the difference?
 
-**Marianna:** Ok, but let's come back a little bit. Again, there are software programs, there are bots, chatbots, AI tools and AI by itself. Can you help us to understand they all are different?
+**Marianna:** ~~Ok, but let's come back a little bit. Again,~~ ✂ C4 There are software programs, there are bots, chatbots, AI tools and AI by itself. Can you help us to understand they all are different?
 
-**Rifat:** Yes.
-
-**Marianna:** These differences, because when we are talking to chat GPT for example, we are talking to chatbot.
-
-**Rifat:** Yes.
-
-**Marianna:** But this chatbot can create a code.
-
-**Rifat:** Yes.
-
-**Marianna:** That code can create a software program.
-
-**Rifat:** Yes.
+✂ C5 ~~**Rifat:** Yes. / **Marianna:** These differences, because when we are talking to chat GPT for example, we are talking to chatbot. / **Rifat:** Yes. / **Marianna:** But this chatbot can create a code. / **Rifat:** Yes. / **Marianna:** That code can create a software program. / **Rifat:** Yes.~~
 
 **Marianna:** Where is agent in between? What does it mean agent? What can we do? Because this chatbot can create agent as well. But what is the difference between AI tool, I mean the tool or software program created by AI and agent?
 
@@ -82,7 +73,7 @@ Where we are going through in the world is, we are going to create all these lit
 
 **Marianna:** Let's talk a little bit about coding. How is it important nowadays? Do we need to learn coding to use AI better?
 
-**Rifat:** If we go back to Socrates 3000 years ago, they memorized all the books. Because there is no printing press, they used a technique called memory palaces to remember thousands of pages of a book. Right now, we do not have that skill. There are only memory championships in the world where people memorize deck of cards. And they got championships. But most of the people stopped doing that. What is happening right now is because the language gets abstracted, people are going to become pilots rather than riders or drivers. Those riding and driving will still exist in a hobby level. People looking at a screen using a keyboard will be something of the past. But that means the white color jobs that people got used to is getting disrupted a lot. So we are going to go into a world where we don't look at the screens. So it could be also very plus for people's mental health. They don't have to look at the screens all day long because once you give delegate the job to a bot that can do the things with their own agency, then you don't need to look at the screens that much. The other reality that we got is in Europe, in the US, we created lots of rhetoric. We draw borders between countries. We say this is this government, this is that government. That created a big bureaucracy all over the world. What these bots are good at is they are good at policy, writing, implementing and delivering. What we are going to see is these government agencies are mostly going to converge and all of the jobs that the government policies done will be done by the AI because that is the tasks that the AI can accelerate. What does it mean for us? We will have more time to be able to be much, much more creative. What does that mean? A pilot versus a driver. A pilot has more places to go than a car driver. A car driver has more places than a go than a rider because rider always depends on the horse. Car also depends on the car. The pilot depends on the plane. The plane has more engineering in it. To answer your question.
+**Rifat:** If we go back to Socrates 3000 years ago, they memorized all the books. Because there is no printing press, they used a technique called memory palaces to remember thousands of pages of a book. Right now, we do not have that skill. There are only memory championships in the world where people memorize deck of cards. And they got championships. But most of the people stopped doing that. What is happening right now is because the language gets abstracted, people are going to become pilots rather than riders or drivers. Those riding and driving will still exist in a hobby level. People looking at a screen using a keyboard will be something of the past. But that means the white color jobs that people got used to is getting disrupted a lot. So we are going to go into a world where we don't look at the screens. So it could be also very plus for people's mental health. They don't have to look at the screens all day long because once you give delegate the job to a bot that can do the things with their own agency, then you don't need to look at the screens that much. The other reality that we got is in Europe, in the US, we created lots of rhetoric. We draw borders between countries. We say this is this government, this is that government. That created a big bureaucracy all over the world. What these bots are good at is they are good at policy, writing, implementing and delivering. What we are going to see is these government agencies are mostly going to converge and all of the jobs that the government policies done will be done by the AI because that is the tasks that the AI can accelerate. What does it mean for us? We will have more time to be able to be much, much more creative. What does that mean? A pilot versus a driver. A pilot has more places to go than a car driver. ~~A car driver has more places than a go than a rider because rider always depends on the horse.~~ ✂ C6 Car also depends on the car. The pilot depends on the plane. The plane has more engineering in it. To answer your question. *(✂ C7: close the pause here)*
 
 The engineering has to be learned because once you fly a plane as a pilot you are going to get trained more, not less. Most of the time people think that I will get trained less. No. From a horse to a car you have to get licensed to understand there is an engine, there is a bag, there is insurance, there is the fatalities. With a plane the risk is higher. If I had 300 bots I am more dangerous. So I need to get certified. I need to make sure that I can engineer this. To come to your question, would I need to memorize 300 pages? No. But I will watch more, I will understand more, I will comment, I will conquer more.
 
@@ -100,11 +91,11 @@ The engineering has to be learned because once you fly a plane as a pilot you ar
 
 ## 11. The mind digestion system — self-learning
 
-**Marianna:** Let's talk a little bit about the mind digestion system. Because we had a very interesting case when you asked AI how much time it will take to average person to absorb the information that you provided in a few minutes. I mean that it takes time and as early as we are starting to work, just to adopt AI for our mind. Like we help our mind to learn it, to be with it, to live with it. It is not only about learning, it's about to learn how to live with AI as soon as I can say, based on my experience, then when I started it was complicated. But every time, month by month, I can do more and more. But it's not possible to do a lot in the beginning. You have to adopt your mind to that, right?
+**Marianna:** Let's talk a little bit about the mind digestion system. Because we had a very interesting case when you asked AI how much time it will take to average person to absorb the information that you provided in a few minutes. ~~I mean that it takes time and as early as we are starting to work, just to adopt AI for our mind. Like we help our mind to learn it, to be with it, to live with it. It is not only about learning, it's about to learn how to live with AI as soon as I can say, based on my experience, then when I started it was complicated. But every time, month by month, I can do more and more. But it's not possible to do a lot in the beginning.~~ ✂ C8 You have to adopt your mind to that, right?
 
 **Rifat:** Yes. The self-learning, that was my core niche. I started this niche 10 years ago. There was not that many people in this niche. Still there's not that many people on the self-learning niche. I think it's going to become big and our job is going to become self-learners. Because once AI does the job, we either go to our corner or we become very creative and we become self-learners. And our job becomes learning and creating. Because we need to, in my perception, the pilots need to be creative. The pilots need to be operative. The pilots need to be builders. They need to be architects. They need to treasure the things and they need to become strategists. I call this COBALTS to make sure that what does a pilot do in a nutshell. They need to be able to create and operate all day long.
 
-**Marianna:** Great.
+~~**Marianna:** Great.~~ ✂ C9
 
 ## 12. The workshop and the community
 
@@ -112,7 +103,7 @@ The engineering has to be learned because once you fly a plane as a pilot you ar
 
 **Rifat:** Yes. We are doing the Eventbrite workshops in Cambridge sixth-form college. People can sign up in Cambridge and they can join us. We have a free session on the Skool platform where we come together every week on Sunday 1.30. So they can come in and showcase what they are doing. We have a session where we meet up. We go through one topic. Then we talk about what we are grateful of, what we learned, what we implemented that week. Our on-site sessions are mostly about people coming in, doing the things hands-on because you always need somebody supporting this. And we are very, very passionate about these delivery pilots going online. People delivering, not just integrating, delivering the solutions as a pilot.
 
-We are very focused on it and we are blessed in Cambridge. There's a community that people are very interested in learning these things. But if you are not in this area, definitely go to the Skool community. Join. It is free for the students to come in and join. There's a symbolic fee for the professionals. And if the business is not, they can get managed service as these bots and be able to implement.
+We are very focused on it and we are blessed in Cambridge. There's a community that people are very interested in learning these things. But if you are not in this area, definitely go to the Skool community. Join. It is free for the students to come in and join. There's a symbolic fee for the professionals. ~~And if the business is not, they can get managed service as these bots and be able to implement.~~ ✂ C10
 
 ## 13. Requirements to join
 
@@ -134,7 +125,7 @@ We are very focused on it and we are blessed in Cambridge. There's a community t
 
 ---
 
-## Post-roll (cut)
+## Post-roll ✂ C11
 
 > This could be very long.
 >

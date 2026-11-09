@@ -2,7 +2,7 @@
 
 Goal: turn the raw recording into a tight, chaptered long-form video with correct captions. Use the DaVinci Resolve scripting already in `5_Symbols/` so this can be repeated every week.
 
-Status: **PLAN — nothing implemented yet.** Review the cut list in section 2, mark each row Keep or Cut, then the build steps in section 4 can go ahead.
+Status: **Decisions made, scripts written** (`5_Symbols/mark_cuts.lua`, `5_Symbols/apply_cuts.lua`, `cut_list.lua`). They were tested against a mock Resolve API with a synthetic SRT. The next step is to run them in Resolve on the real `raw.srt` (section 4).
 
 ---
 
@@ -12,10 +12,10 @@ Status: **PLAN — nothing implemented yet.** Review the cut list in section 2, 
 Raw clip on timeline
    │  (Resolve: Transcribe → Export subtitles as SRT, with timecodes)
    ▼
-raw.srt  ──►  cut_list.json  (cuts defined by start/end PHRASES, not timecodes)
+raw.srt  ──►  cut_list.lua   (cuts defined by start/end PHRASES, not timecodes)
    │                │
    │                ▼
-   │        mark_cuts.lua      → RED markers on cut ranges, BLUE markers on chapters
+   │        mark_cuts.lua      → RED markers on cut ranges + silences, BLUE markers on chapters
    │                │            (review pass in Resolve; nothing deleted yet)
    │                ▼
    │        apply_cuts.lua     → builds NEW timeline "W46_edit_v1" from the keep ranges
@@ -30,9 +30,9 @@ Why phrases instead of timecodes: the script text already exists and has been re
 
 ---
 
-## 2. Cut list (needs approval)
+## 2. Cut list (approved)
 
-Legend: **CUT** = remove · **TRIM** = shorten, keep the meaning · **KEEP?** = your call.
+Legend: **CUT** = remove · **TRIM** = shorten, keep the meaning 
 
 | # | Ch. | Speaker | From (phrase) | To (phrase) | Action | Reason |
 |---|-----|---------|---------------|-------------|--------|--------|
@@ -40,14 +40,14 @@ Legend: **CUT** = remove · **TRIM** = shorten, keep the meaning · **KEEP?** = 
 | C2 | 4 | Marianna | "Okay, you jumped already to bots." | "I think it's too fast." | **TRIM** | Redirect. Start the chapter at "Let's talk about AI skills." |
 | C3 | 4 | Marianna | "Let's talk about AI skills. What does it mean?" | "AI can do much more than that." | **CUT** (keep 2nd ask) | The question is asked twice. Keep "Let's talk about AI skills first. How do you understand AI skills and why it's important?" |
 | C4 | 6 | Marianna | "Ok, but let's come back a little bit. Again," | — | **TRIM** | Redirect filler. Start at "There are software programs, there are bots…" |
-| C5 | 6 | both | "Yes." / "But this chatbot can create a code." / "Yes." … | "Where is agent in between?" | **KEEP?** | Quick back-and-forth. It feels natural, but tightening the pauses would help |
+| C5 | 6 | both | "Yes." / "But this chatbot can create a code." / "Yes." … | "Where is agent in between?" | **CUT** | Back-and-forth. Rifat: cut |
 | C6 | 8 | Rifat | "A car driver has more places than a go than a rider" | — | **TRIM** | Verbal stumble. Cut to "A pilot has more places to go than a car driver." if the audio allows |
 | C7 | 8 | Rifat | "To answer your question." (1st) | "The engineering has to be learned" | **TRIM** | Likely pause/restart between the two paragraphs. Close the gap |
 | C8 | 11 | Marianna | "I mean that it takes time and as early as we are starting to work…" | "…You have to adopt your mind to that, right?" | **TRIM** | Long question. Keep the case of asking the AI how long it takes to absorb the information, then the closing question |
 | C9 | 11 | Marianna | "Great." | — | **CUT** | Filler before the next chapter |
-| C10 | 12 | Rifat | "And if the business is not, they can get managed service…" | — | **KEEP?** | Unclear sentence. Re-record a voice-over line, or cut it |
+| C10 | 12 | Rifat | "And if the business is not, they can get managed service…" | — | **CUT** | Unclear sentence. Rifat: cut |
 | C11 | Post-roll | both | "This could be very long." | "Because our..." | **CUT** | After the close |
-| C12 | all | both | silences > 0.8 s | — | **TRIM** | Tighten dead air: cut silences to 0.3 s (Resolve: Edit → Remove Silence, or done by script) |
+| C12 | all | both | silences > 0.8 s | — | **TRIM** | Tighten dead air: cut silences to **0.4 s** (Rifat) |
 
 Expected result: roughly 8–12% shorter, with no content lost.
 
@@ -74,12 +74,7 @@ Placed at the first word of each chapter's opening question, after the cuts:
 | 13 | "Are there any requirements" | Requirements to join |
 | 14 | "If someone is thinking, \"Oh, AI isn't for me,\"" | "AI isn't for me" |
 
-Also add **YELLOW** markers for shorts/clip candidates:
-
-- "I have 300 bots running at the same time… I write one bot to write other bots" (Ch. 3)
-- The Rider / Driver / Pilot explanation (Ch. 4)
-- "If they can't find the food in Tesco, they will go to Sainsbury…" (Ch. 7)
-- "Stay like an Amish… the greatest investment of humanity" (Ch. 14)
+Shorts / YELLOW clip markers: **removed from scope** (Rifat).
 
 ---
 
@@ -89,36 +84,36 @@ Also add **YELLOW** markers for shorts/clip candidates:
 1. Select the clip, then **Timeline → Create Subtitles from Audio** (or Transcribe).
 2. **File → Export → Subtitle** as `raw.srt` and save it in this folder.
 
-### Step 2 — `cut_list.json` (new file, this folder)
-Turn the approved rows from section 2 into data:
-```json
-{
-  "fps_source": "timeline",
-  "cuts":     [{"id": "C1", "from": "More, more.", "to": "Yes, it's recording.", "action": "cut"}],
-  "chapters": [{"n": 1, "at": "Let's talk about technologies, AI, progress", "title": "Why technology?"}],
-  "clips":    [{"at": "I have 300 bots running", "to": "write other bots"}],
-  "silence":  {"min_gap_s": 0.8, "keep_s": 0.3}
-}
-```
+### Step 2 — `cut_list.lua` ✅ written
+This is plain Lua data rather than JSON, because Resolve's Lua console has no JSON library. Each cut has a start anchor (`from` / `after` / `START`) and an end anchor (`to` / `before` / `END`).
 
-### Step 3 — `5_Symbols/mark_cuts.lua` (new)
+The phrases must match the **raw** transcription, not the corrected `script.md`. For example, the opening is anchored on "Okay, hello" because the raw text says "NEM".
+
+### Step 3 — `5_Symbols/mark_cuts.lua` ✅ written
 - Reuse the SRT parser and `timecodeToFrames` from `5_Symbols/add_srt_markers.lua`, and the sentence joining from `markers_sentences.lua`.
 - Fuzzy-match each `from`/`to` phrase against the joined SRT text (lowercase, punctuation stripped) to get start and end frames.
-- `timeline:AddMarker(frame, "Red", "CUT C1", note, durationFrames)` for cuts, `"Blue"` for chapters and `"Yellow"` for clips.
+- `timeline:AddMarker(frame, "Red", "CUT C1", note, durationFrames, "edit:cut")` for cuts, `"SIL"` markers for silences and `"Blue"` markers for chapters.
+- Frames are relative to the timeline start: the 01:00:00:00 SRT offset is subtracted (see `6_Semblance/markers_fix.md`).
+- Writes `mark_cuts_report.txt` next to the cut list.
 - Print a report: every phrase found or **not found**, so nothing is skipped silently.
-- Uses only marker APIs and changes no media, so it is safe to run more than once. Run `delete_all_markers` first (see `3_Simulation/delete_all_markers.png`).
+- Uses only marker APIs and changes no media, so it is safe to run more than once. It removes only its own markers (`customData` starting with `edit:`), so your own markers stay.
+- Pad cuts (C7, C9) report SKIP rather than FAIL if there is no pause to close.
 
 ### Step 4 — Review pass (manual)
 Scrub through every red marker in Resolve and adjust marker in/out points by hand where a breath or word ending needs it. The marker positions are what gets cut.
 
-### Step 5 — `5_Symbols/apply_cuts.lua` (new)
+### Step 5 — `5_Symbols/apply_cuts.lua` ✅ written
 - Read the RED markers back with `timeline:GetMarkers()` and work out the keep ranges as the complement of the cut ranges.
 - Create a new timeline `W46_edit_v1` with `mediaPool:CreateEmptyTimeline()`. Then call `mediaPool:AppendToTimeline({{mediaPoolItem=..., startFrame=a, endFrame=b}, ...})` once per keep range, for both the video and audio items.
 - This is non-destructive: the original timeline stays as the master, and you can roll back by deleting `W46_edit_v1`.
-- Copy the BLUE and YELLOW markers onto the new timeline, shifted by the total length cut before each one.
+- Copies the BLUE markers onto the new timeline, shifted by the total length cut before each one, and writes `youtube_chapters.txt`.
+- Refuses to run if `W46_edit_v1` already exists, or if you are on it.
+- If a separate mic recording sits on its own audio track, set `EXTRA_AUDIO_TRACKS = {2}`.
 
-### Step 6 — Silence tightening
-Do this on `W46_edit_v1` only, after the content cuts, so silence trimming can't move the phrase matching. Use Resolve's built-in silence removal, or detect silences from the SRT gaps (gaps between subtitle entries longer than `min_gap_s`) and add them as extra cut ranges in Step 5.
+### Step 6 — Silence tightening ✅ built into Step 3
+`mark_cuts.lua` adds a red `SIL` marker for every gap between subtitle entries longer than 0.8 s, trimming it to 0.4 s.
+
+Limitation: this only finds pauses that show up as gaps in the SRT. If Resolve's subtitles run back-to-back with no gaps, few silences will be found. In that case, run Resolve's own silence removal on `W46_edit_v1` instead.
 
 ### Step 7 — Captions
 - `captions_corrected.srt`: apply the README change-log replacements to `raw.srt` (Claude Code, daemons, Voltron, Skool, COBALTS, sixth-form college, Muse, Grokbot, Dots, Marianna, abstracted, disrupted, 300 bots), then shift the timings to match the edit.
@@ -126,7 +121,7 @@ Do this on `W46_edit_v1` only, after the content cuts, so silence trimming can't
 
 ### Step 8 — Exports
 - `youtube_chapters.txt`: generated from the BLUE markers on `W46_edit_v1` (`00:00 Why technology?` …). The first chapter must be at 00:00.
-- Render the long-form video, plus one vertical short per YELLOW marker.
+- Render the long-form video.
 
 ---
 
@@ -141,9 +136,29 @@ Do this on `W46_edit_v1` only, after the content cuts, so silence trimming can't
 
 ---
 
-## 6. Open decisions for Rifat
+## 6. Decisions (answered 2026-11-09)
 
-1. C5 and C10: keep or cut?
-2. Do the YouTube shorts from the YELLOW markers belong in this week's scope, or next week's?
-3. Silence threshold: is 0.8 s → 0.3 s right for your pacing?
-4. Opening line: who says "Okay, hello, Marianna"? (This decides the speaker label and whether the cold open starts on Rifat.)
+1. C5 and C10: **cut both**
+2. Shorts / YELLOW markers: **removed**
+3. Silence: gaps > 0.8 s are tightened to **0.4 s**
+4. "Okay, hello, Marianna" is said by **Rifat**. The line is split off as his in `script.md`, and the video opens on Rifat.
+
+## 7. Test run (mock Resolve, synthetic SRT)
+
+`mark_cuts.lua` and `apply_cuts.lua` were run in LuaJIT (the same Lua engine Resolve uses) against a mock of the Resolve API. The mock used a 30-minute synthetic SRT built from the original wording, with pauses between speaker turns.
+
+- All 10 content cuts and 14 chapters were matched (C7 was skipped: there was no pause).
+- The new timeline length was exactly the original length minus the cuts.
+- The pieces were placed with no gaps or overlaps.
+- The first chapter was at 00:00.
+- A user marker on the original timeline survived re-runs.
+
+Timings in the real video will differ. These still need checking in Resolve: AppendToTimeline `recordFrame` support (Resolve 18+), and source frame offsets on your media.
+
+## 8. How to run (in Resolve)
+
+1. Export the transcription: File → Export → Subtitle, saved as `Videos/2026-W46_Delivery_Pilot_Interview/raw.srt`.
+2. Check `VIDEO_DIR` at the top of both scripts. It defaults to `c:\projects\DavinciResolveScripting\Videos\2026-W46_Delivery_Pilot_Interview\`.
+3. With the original timeline open, go to Workspace → Console → Lua and run `mark_cuts.lua`. Fix any FAIL lines in `cut_list.lua`, then re-run.
+4. Scrub through the red markers and drag or resize any that clip a word.
+5. Run `apply_cuts.lua`. This creates `W46_edit_v1` and `youtube_chapters.txt`.
