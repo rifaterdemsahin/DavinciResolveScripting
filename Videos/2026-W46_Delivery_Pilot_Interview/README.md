@@ -5,6 +5,7 @@ Weekly video folder for the week of 9 November 2026.
 | File | What it is |
 |------|------------|
 | `script.md` | Full interview transcript from DaVinci Resolve, split into chapters with speaker labels |
+| `EDIT_PLAN.md` | Plan for the cuts, chapter markers and captions, and the scripts to automate them in Resolve |
 
 ## People
 
@@ -56,19 +57,26 @@ Speaker labels:
 | Interviewer | Marianna |
 | Guest | Rifat |
 
-Inferred, not yet confirmed:
+Inferred: "hello, NEM" → "hello, Erdem". *(Superseded in Update 2.)*
 
-- Marianna's opening line, "hello, NEM", has been changed to **"hello, Erdem"**, since Marianna is addressing the host. Check this against the audio.
+### Update 2 — second review (2026-11-09)
 
-Left unchanged:
+| Transcribed / previous | Corrected to | Where |
+|------------------------|--------------|-------|
+| hello, NEM (Update 1: "hello, Erdem") | hello, Marianna | Opening line |
+| the schools that only focus on nuclear science | the Skools that only focus on nuclear science | Ch. 10 — Rifat confirmed this means Skool |
+| languages got obstructed | languages got abstracted | Ch. 2 |
+| white color jobs … is getting disturbed | … is getting disrupted | Ch. 8 — interpreted from the note "distrubted" |
 
-- "the schools that only focus on nuclear science" (chapter 10). This means schools in general, not Skool.
+Notes for review:
+
+- The note said "obstructed → abstracted, > distrubted". I've read it as two separate fixes: "obstructed" becomes "abstracted", and "disturbed" (ch. 8) becomes "disrupted". If "distributed" was meant somewhere instead, tell me and I'll change it.
+- The opening line ("Okay, hello, Marianna. Let's talk about…") is still labelled **Marianna**. If Rifat says the "hello, Marianna" part, it should be split off as a Rifat line.
 
 ### Still unconfirmed (left as transcribed)
 
 | Transcribed | Probably |
 |-------------|----------|
-| obstructed | abstracted |
 | test cross | Tesco |
 | top nails | thumbnails |
 | loss of | lots of |
