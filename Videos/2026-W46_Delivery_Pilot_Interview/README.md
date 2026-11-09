@@ -7,6 +7,7 @@ Weekly video folder for the week of 9 November 2026.
 | `script.md` | Full interview transcript from DaVinci Resolve, split into chapters with speaker labels |
 | `EDIT_PLAN.md` | Plan for the cuts, chapter markers and captions, and how to run the scripts in Resolve |
 | `cut_list.lua` | Approved cuts, chapters and silence settings, read by `5_Symbols/mark_cuts.lua` |
+| `TIME_ESTIMATE.md` | How long this week's edit took, and the estimate for future weeks |
 | `raw.srt` | *(you add this)* Resolve transcription export: File → Export → Subtitle |
 | `mark_cuts_report.txt`, `youtube_chapters.txt` | *(generated)* by the scripts |
 
