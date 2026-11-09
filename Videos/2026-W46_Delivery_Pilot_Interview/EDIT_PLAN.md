@@ -160,9 +160,33 @@ Limitation: this only finds pauses that show up as gaps in the SRT. If Resolve's
 
 Timings in the real video will differ. These still need checking in Resolve: AppendToTimeline `recordFrame` support (Resolve 18+), and source frame offsets on your media.
 
+## 7b. Test run on the real `raw.srt`
+
+| Check | Result |
+|-------|--------|
+| Cuts matched | 11 / 11, after fixing C6 to the raw wording |
+| Chapters matched | 14 / 14 |
+| Corrections applied | 17 / 17 |
+| Content cut | ~110 s |
+| Silence cut (gaps > 0.8 s → 0.4 s) | **only 2 gaps, 1.5 s** |
+| Total cut | 112 s of 27.6 min (6.8%), giving an edit of about 25:45 |
+| Captions | 384, max 2 × 42 chars, 1–6 s each, 0 overlaps |
+
+**Silence finding:** Resolve trims subtitle timings tightly, so almost no SRT gaps are over 0.8 s. Gaps measured in `raw.srt`:
+
+| Gaps over | Count | Seconds saved by trimming to 0.4 s |
+|-----------|-------|-----------------------------------|
+| 0.5 s | 55 | 12.0 s |
+| 0.6 s | 24 | 7.8 s |
+| 0.8 s | 2 | 1.5 s |
+
+Even trimming every gap would save only ~15 s. Longer pauses inside a subtitle line can't be seen in the SRT. To tighten pacing further, run Resolve's own silence removal on `W46_edit_v1`, or lower `min_gap_s` in `cut_list.lua`.
+
+The preview files (`captions_corrected_preview.srt`, `youtube_chapters_preview.txt`) come from this run. They match the real edit only if the red markers are not moved. Otherwise re-run `build_captions.lua` and `apply_cuts.lua` in Resolve.
+
 ## 8. How to run (in Resolve)
 
-1. Export the transcription: File → Export → Subtitle, saved as `Videos/2026-W46_Delivery_Pilot_Interview/raw.srt`.
+1. ✅ Done: `raw.srt` is in the repo. Pull the branch so your local folder has it.
 2. Check `VIDEO_DIR` at the top of both scripts. It defaults to `c:\projects\DavinciResolveScripting\Videos\2026-W46_Delivery_Pilot_Interview\`.
 3. With the original timeline open, go to Workspace → Console → Lua and run `mark_cuts.lua`. Fix any FAIL lines in `cut_list.lua`, then re-run.
 4. Scrub through the red markers and drag or resize any that clip a word.

@@ -50,6 +50,9 @@ If the menu item is greyed out, click the subtitle track (ST1) header first, or 
 
 ### Option B — Deliver page
 
+Resolve names the file `Subtitle 1.srt` by default. Rename it to `raw.srt`, or upload it to GitHub and Claude will rename it.
+
+
 1. Open the **Deliver** page.
 2. Render Settings → **Subtitle Settings** → tick **Export Subtitle**.
 3. Format: **SRT**, Export as: **Separate file**.
@@ -75,6 +78,7 @@ my head will be up. Okay,
 - [ ] The times start around **01:00:00**, the timeline start (00:00:00 is also fine).
 - [ ] The first lines are the pre-roll ("More, more…") and the last lines are the post-roll ("This could be very long…").
 - [ ] Each block is a number, a time line, then text, with a blank line between blocks.
+- Lines wrapped in `<b>…</b>` are fine. Resolve adds those, and the scripts strip them.
 
 ---
 

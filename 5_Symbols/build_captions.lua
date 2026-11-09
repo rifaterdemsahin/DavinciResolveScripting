@@ -139,7 +139,10 @@ for line in file:lines() do
     local a, b = line:match("(%d+:%d+:%d+[,%.]%d+)%s*%-%->%s*(%d+:%d+:%d+[,%.]%d+)")
     if a then cur = { s = srtToSeconds(a), e = srtToSeconds(b), lines = {} }
     elseif line == "" then flush()
-    elseif cur then table.insert(cur.lines, line) end
+    elseif cur then
+        line = line:gsub("<[^>]*>", ""):gsub("{\\[^}]*}", "")   -- strip <b> / {\an8} tags
+        if line ~= "" then table.insert(cur.lines, line) end
+    end
 end
 flush()
 file:close()

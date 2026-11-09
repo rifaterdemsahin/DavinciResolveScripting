@@ -9,7 +9,9 @@ Weekly video folder for the week of 9 November 2026.
 | `cut_list.lua` | Approved cuts, chapters and silence settings, read by `5_Symbols/mark_cuts.lua` |
 | `TIME_ESTIMATE.md` | How long this week's edit took, and the estimate for future weeks |
 | `corrections.lua` | Confirmed caption corrections (raw → corrected), read by `5_Symbols/build_captions.lua` |
-| `raw.srt` | *(you add this)* Resolve transcription export. How-to: [`4_Formula/export_srt.md`](../../4_Formula/export_srt.md) |
+| `raw.srt` | Resolve transcription export (uploaded as `Subtitle 1.srt`, renamed). How-to: [`4_Formula/export_srt.md`](../../4_Formula/export_srt.md) |
+| `captions_corrected_preview.srt` | **Preview** captions built from `raw.srt`: corrected, cut and re-timed. Valid only if the red markers are not moved in Resolve |
+| `youtube_chapters_preview.txt` | **Preview** YouTube chapters for the edited video, with the same caveat |
 | `mark_cuts_report.txt`, `youtube_chapters.txt`, `captions_corrected.srt` | *(generated)* by the scripts in Resolve |
 
 ## People
@@ -96,6 +98,29 @@ Notes for review:
 - Added `5_Symbols/build_captions.lua`. It builds `captions_corrected.srt`: corrected, with cut words removed, re-timed to `W46_edit_v1`, and wrapped at max 2 lines × 42 chars, 1–6 s per caption.
 - Added `4_Formula/export_srt.md`: a one-page guide to exporting `raw.srt` and importing the captions.
 
+### Update 5 — real `raw.srt` (2026-11-09)
+
+Rifat uploaded the Resolve export: 810 subtitles, about 27.6 min (01:00:00 → 01:27:35).
+
+- Resolve wraps every line in `<b>…</b>`. `mark_cuts.lua` and `build_captions.lua` now strip these tags.
+- C6 end phrase changed to "depends on the horse". The raw text is "because rider all this depends on the horse".
+- The raw SRT words several things differently from the pasted transcript, so `corrections.lua` was updated:
+
+| Pasted transcript | raw.srt | Corrected to |
+|-------------------|---------|--------------|
+| demos | delts (2×) | daemons |
+| Waltron | Valtran (2×) | Voltron |
+| kobaltz | cobalt | COBALTS |
+| sixth-born college | sixth form college | sixth-form college |
+| obstructed | absurd ("got absurd") | abstracted |
+| the Muses at home | the news at home | the Muses at home — **inferred, check audio** |
+| white color | white collar | *(already right; removed from the unconfirmed list)* |
+
+- Test result (mock Resolve, real SRT):
+  - All 11 cuts and 14 chapters matched, and all 17 corrections applied.
+  - 112 s cut (6.8%), leaving an edit of about 25:45.
+  - 384 captions, none over 42 chars, no overlaps.
+
 ### Still unconfirmed (left as transcribed)
 
 | Transcribed | Probably |
@@ -105,4 +130,3 @@ Notes for review:
 | loss of | lots of |
 | stand boxes | sandboxes |
 | I taught | I thought |
-| white color | white collar |

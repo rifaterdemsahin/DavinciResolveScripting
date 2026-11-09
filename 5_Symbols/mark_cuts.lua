@@ -84,7 +84,8 @@ for line in file:lines() do
     elseif line == "" then
         flush()
     elseif cur then
-        table.insert(cur.lines, line)
+        line = line:gsub("<[^>]*>", ""):gsub("{\\[^}]*}", "")   -- strip <b> / {\an8} tags
+        if line ~= "" then table.insert(cur.lines, line) end
     end
 end
 flush()

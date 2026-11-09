@@ -30,7 +30,7 @@ return {
     { id = "C5",  note = "Yes / back-and-forth",
       after = "help us to understand they all are different", before = "Where is agent in between" },
     { id = "C6",  note = "Stumble: car driver / rider",
-      from = "A car driver has more places than a go", to = "rider always depends on the horse" },
+      from = "A car driver has more places than a go", to = "depends on the horse" },
     { id = "C7",  note = "Close the pause between paragraphs",
       after = "The plane has more engineering in it. To answer your question", before = "The engineering has to be learned",
       pad = true },
