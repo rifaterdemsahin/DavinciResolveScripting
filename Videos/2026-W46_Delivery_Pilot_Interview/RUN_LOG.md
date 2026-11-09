@@ -37,3 +37,12 @@ Probe: `bmd: table`, `scriptapp Resolve: nil`, `scriptapp Fusion: nil`.
 4. Fallback: copy the scripts into `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Edit/`
    with `VIDEO_DIR` set to this repo's `Videos/2026-W46_Delivery_Pilot_Interview/` and run from Workspace > Scripts.
 Then rerun `mark_cuts.lua` and stop to review the red markers before `apply_cuts.lua`.
+
+## Update — retry after confirming Studio edition + open project
+- Edition ruled out: user confirmed Resolve **Studio**, project open.
+- Re-ran the `bmd.scriptapp("Resolve")` probe **outside the shell sandbox**: still `nil` (so it is not a sandbox/network restriction).
+- `davinci_resolve.log` (this session, 2026-11-09 13:41): "Started listener socket at port 15000", "Started script server: 17760"
+  — the script server is up, but Resolve rejects external clients. No scripting-level value is readable from prefs files.
+- Remaining cause: **Preferences > System > General > External scripting using** is not "Local" (or Resolve was not
+  restarted after changing it). Set to Local, quit and reopen Resolve + the project, then rerun `mark_cuts.lua`.
+- Alternative that needs no setting: run from Workspace > Scripts inside Resolve.
