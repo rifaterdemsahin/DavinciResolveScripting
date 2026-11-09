@@ -4,7 +4,12 @@ Weekly video folder for the week of 9 November 2026.
 
 | File | What it is |
 |------|------------|
-| `script.md` | Full interview transcript from DaVinci Resolve, split into chapters with Interviewer / Guest labels |
+| `script.md` | Full interview transcript from DaVinci Resolve, split into chapters with speaker labels |
+
+## People
+
+- **Rifat Erdem Sahin** — main host (answers the questions)
+- **Marianna** — guest (asks the questions)
 
 ## Chapters (rough cut guide)
 
@@ -25,26 +30,48 @@ Weekly video folder for the week of 9 November 2026.
 
 Pre-roll ("More, more… Recording? Yes") and post-roll ("This could be very long…") are marked as cut.
 
-## Likely transcription errors to fix in captions
+## Change log
 
-The script keeps the words as transcribed. These look like mishearings — check against the audio before burning captions:
+### Update 1 — confirmed corrections (2026-11-09)
+
+Rifat reviewed the transcript and confirmed these corrections. All are applied in `script.md`:
+
+| Transcribed | Corrected to |
+|-------------|--------------|
+| cloud code | Claude Code |
+| demos | daemons |
+| Waltron | Voltron |
+| school platform / school community / "For the school" | Skool platform / Skool community / "For the Skool" |
+| 300 boats | 300 bots |
+| kobaltz | COBALTS |
+| sixth-born college | sixth-form college |
+| moose (has passed ChatGPT) | Muse |
+| broad bot | Grokbot |
+| DUTS | Dots |
+
+Speaker labels:
+
+| Before | After |
+|--------|-------|
+| Interviewer | Marianna |
+| Guest | Rifat |
+
+Inferred, not yet confirmed:
+
+- Marianna's opening line, "hello, NEM", has been changed to **"hello, Erdem"**, since Marianna is addressing the host. Check this against the audio.
+
+Left unchanged:
+
+- "the schools that only focus on nuclear science" (chapter 10). This means schools in general, not Skool.
+
+### Still unconfirmed (left as transcribed)
 
 | Transcribed | Probably |
 |-------------|----------|
-| cloud code | Claude Code |
-| demos | daemons |
 | obstructed | abstracted |
 | test cross | Tesco |
 | top nails | thumbnails |
-| Waltron | Voltron |
-| moose / Muse | (bot product name — check audio) |
-| broad bot / DUTS | (bot product names — check audio) |
 | loss of | lots of |
 | stand boxes | sandboxes |
-| 300 boats | 300 bots |
 | I taught | I thought |
 | white color | white collar |
-| kobaltz | (framework name — check audio) |
-| sixth-born college | (college name — check audio) |
-| school platform / school community | Skool |
-| NEM | (guest's name — check audio) |
