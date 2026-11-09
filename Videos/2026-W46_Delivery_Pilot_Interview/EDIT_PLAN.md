@@ -81,6 +81,7 @@ Shorts / YELLOW clip markers: **removed from scope** (Rifat).
 ## 4. Implementation steps
 
 ### Step 1 — Get timecodes (manual, in Resolve)
+Full guide: [`4_Formula/export_srt.md`](../../4_Formula/export_srt.md)
 1. Select the clip, then **Timeline → Create Subtitles from Audio** (or Transcribe).
 2. **File → Export → Subtitle** as `raw.srt` and save it in this folder.
 
@@ -115,9 +116,13 @@ Scrub through every red marker in Resolve and adjust marker in/out points by han
 
 Limitation: this only finds pauses that show up as gaps in the SRT. If Resolve's subtitles run back-to-back with no gaps, few silences will be found. In that case, run Resolve's own silence removal on `W46_edit_v1` instead.
 
-### Step 7 — Captions
-- `captions_corrected.srt`: apply the README change-log replacements to `raw.srt` (Claude Code, daemons, Voltron, Skool, COBALTS, sixth-form college, Muse, Grokbot, Dots, Marianna, abstracted, disrupted, 300 bots), then shift the timings to match the edit.
-- Import it onto `W46_edit_v1` as a subtitle track.
+### Step 7 — Captions ✅ `5_Symbols/build_captions.lua` written
+- Run it on the **original** timeline after `apply_cuts.lua`.
+- It reads `raw.srt` and applies `corrections.lua`, matching word by word across subtitle boundaries and keeping punctuation.
+- It drops the words inside red markers and shifts the rest onto the edited timeline.
+- It regroups the words into captions: max 2 lines × 42 chars, 1–6 s each, with a break at a sentence end or a pause over 0.6 s.
+- Output: `captions_corrected.srt`. Import it with File → Import → Subtitle and drag it onto `W46_edit_v1`.
+- Mock test: all 16 corrections applied, no cut text left, 0 overlaps, no line over 42 chars, and the last caption ends exactly at the edit's end.
 
 ### Step 8 — Exports
 - `youtube_chapters.txt`: generated from the BLUE markers on `W46_edit_v1` (`00:00 Why technology?` …). The first chapter must be at 00:00.

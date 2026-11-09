@@ -8,8 +8,9 @@ Weekly video folder for the week of 9 November 2026.
 | `EDIT_PLAN.md` | Plan for the cuts, chapter markers and captions, and how to run the scripts in Resolve |
 | `cut_list.lua` | Approved cuts, chapters and silence settings, read by `5_Symbols/mark_cuts.lua` |
 | `TIME_ESTIMATE.md` | How long this week's edit took, and the estimate for future weeks |
-| `raw.srt` | *(you add this)* Resolve transcription export: File → Export → Subtitle |
-| `mark_cuts_report.txt`, `youtube_chapters.txt` | *(generated)* by the scripts |
+| `corrections.lua` | Confirmed caption corrections (raw → corrected), read by `5_Symbols/build_captions.lua` |
+| `raw.srt` | *(you add this)* Resolve transcription export. How-to: [`4_Formula/export_srt.md`](../../4_Formula/export_srt.md) |
+| `mark_cuts_report.txt`, `youtube_chapters.txt`, `captions_corrected.srt` | *(generated)* by the scripts in Resolve |
 
 ## People
 
@@ -88,6 +89,12 @@ Notes for review:
 | Shorts / YELLOW clip markers → **removed from scope** | `EDIT_PLAN.md` |
 | Silence target 0.3 s → **0.4 s** | `cut_list.lua` |
 | Added `cut_list.lua`, `5_Symbols/mark_cuts.lua`, `5_Symbols/apply_cuts.lua` | Scripts |
+
+### Update 4 — captions (2026-11-09)
+
+- Added `corrections.lua`: the 16 confirmed corrections. The 6 unconfirmed ones are listed but switched off.
+- Added `5_Symbols/build_captions.lua`. It builds `captions_corrected.srt`: corrected, with cut words removed, re-timed to `W46_edit_v1`, and wrapped at max 2 lines × 42 chars, 1–6 s per caption.
+- Added `4_Formula/export_srt.md`: a one-page guide to exporting `raw.srt` and importing the captions.
 
 ### Still unconfirmed (left as transcribed)
 
